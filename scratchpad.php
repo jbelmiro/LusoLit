@@ -23,3 +23,64 @@ if (!$tempresult) {
 }
 
 $temprow = mysqli_fetch_row($tempresult);
+
+$query = "SELECT * FROM rocks
+  WHERE Rock  LIKE '%".$search."%'
+  OR Taste LIKE '%".$search."%' 
+  OR Look LIKE '%".$search."%' 
+  OR Emotion LIKE '%".$search."%' 
+  ";}
+
+    $search = mysqli_real_escape_string($conn, $_POST["query"]);
+  
+  $query = "SELECT geosamples.*, storage.* FROM geosamples
+    INNER JOIN storage
+    on geosamples.storage_id = storage.storage.id 
+    WHERE latitude LIKE '%".$search."%'
+    OR name LIKE '%".$search."%'
+    OR researcher LIKE '%".$search."%'
+    OR city LIKE '%".$search."%'
+
+   
+  ";}
+else
+{
+  $query = "SELECT geosamples.*, storage.* FROM geosamples
+    INNER JOIN storage";
+}
+$result = mysqli_query($conn, $query);
+
+if(mysqli_num_rows($result) > 0)
+{
+  $return .='
+  <div class="table-responsive">
+  <table class="table table-stripe">
+  <thead>
+  <tr>
+    <th scope="col">Rock</th>
+    <th scope="col">Taste</th>
+    <th scope="col">Look</th>
+    <th scope="col">Emotion</th>
+  </thead>
+  </tr>';
+  while($row1 = mysqli_fetch_array($result))
+  {
+    $return .= '
+    <tr>
+    <td><a href="rock.php?id=' . $row1['id'] . '">' . $row1['name'] . '</a></td>
+    <td>'.$row1["longitude"].'</td>
+    <td>'.$row1["year"].'</td>
+    <td>'.$row1["location"].'</td>
+    <td>'.$row1["city"].'</td>
+
+    </tr>';
+    print_r($row1);
+  }
+  echo $return;
+  }
+else
+{
+  echo 'No results containing all your search terms were found.';
+}
+?>
+

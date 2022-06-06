@@ -5,15 +5,17 @@ $return = '';
 if(isset($_POST["query"]))
 {
 	$search = mysqli_real_escape_string($conn, $_POST["query"]);
-	$query = "SELECT * FROM rocks
-	WHERE Rock  LIKE '%".$search."%'
-	OR Taste LIKE '%".$search."%' 
-	OR Look LIKE '%".$search."%' 
-	OR Emotion LIKE '%".$search."%' 
+	$query = "SELECT DISTINCT geosamples.name, geosamples.longitude, geosamples.latitude, geosamples.location, geosamples.id, storage.storage_id, storage.city FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id
+	WHERE name  LIKE '%".$search."%'
+	OR location LIKE '%".$search."%' 
+	OR longitude LIKE '%".$search."%' 
+	OR latitude LIKE '%".$search."%' 
+	OR city LIKE '%".$search."%'
 	";}
 else
 {
-	$query = "SELECT * FROM rocks";
+	$query = "SELECT DISTINCT geosamples.name, geosamples.longitude, geosamples.latitude, geosamples.location, geosamples.id, storage.storage_id, storage.city FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id;
+    ";
 }
 $result = mysqli_query($conn, $query);
 if(mysqli_num_rows($result) > 0)
@@ -33,10 +35,12 @@ if(mysqli_num_rows($result) > 0)
 	{
 		$return .= '
 		<tr>
-		<td><a href="rock.php?id=' . $row1['ID'] . '">' . $row1['Rock'] . '</a></td>
-		<td>'.$row1["Taste"].'</td>
-		<td>'.$row1["Look"].'</td>
-		<td>'.$row1["Emotion"].'</td>
+		<td><a href="rock.php?id=' . $row1['id'] . '">' . $row1['name'] . '</a></td>
+		<td>'.$row1["location"].'</td>
+		<td>'.$row1["longitude"].'</td>
+		<td>'.$row1["latitude"].'
+		</td><td>'.$row1["city"].'</td>
+
 		</tr>';
 	}
 	echo $return;
