@@ -1,0 +1,5 @@
+id,thinsection_id,texture,microstructure,orthochem,allochem,bioclast,porosity,sedimentary.structure,observations
+1,1,Mudstone,Massive,Micro-cryptocrystalline granular quartz,Iron oxide,Unidentifiable fossils,Low porosity,,
+2,2,Wackestone,Massive,Micro-cryptocrystalline granular quartz,Iron oxide,Echinoid spines,Low porosity,,
+3,3,Packstone,Massive,Micro-cryptocrystalline granular quartz,Iron oxide,Unidentifiable fossils,Low porosity,Burrow,
+4,4,Wackestone,Massive,Micro-cryptocrystalline granular quartz,Iron oxide,Unidentifiable fossils,Low porosity,Burrow,
