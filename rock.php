@@ -6,9 +6,9 @@ include("config.php");
 
 $rock_id = $_GET['id'];
 
-$query = 'SELECT * FROM rocks WHERE ID = ' . $rock_id;
-$temp = ' SELECT * FROM val_archaeo';
-$result = mysqli_query($conn, "SELECT ID,Rock,Taste,img1,img2 FROM rocks WHERE id = $rock_id");
+$query = 'SELECT * FROM geosamples WHERE id = ' . $rock_id;
+
+$result = mysqli_query($conn, "SELECT * FROM geosamples WHERE id = $rock_id");
 if (!$result) {
     echo 'Could not run query: ' . mysql_error();
     exit;
@@ -33,7 +33,8 @@ $row = mysqli_fetch_row($result);
 <<div class="container-fluid">       
 <div class="content-wrapper">
   <div class="container">
-    <p class="display-3">Astro's Rock Collection</p>
+    <p class="display-3">Astro's Rock Collection   <button type="button" class="btn btn-secondary" style="position:relative; left:-750px" onclick="history.back()">Go Back</button></p>
+
     <p class="h3"><?php echo $row[1] ?></p>
     <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Mi proin sed libero enim sed faucibus turpis in.</p>
    

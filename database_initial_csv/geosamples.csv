@@ -1,11 +1,11 @@
-id,name,researcher,year,location,latitude,longitude,storage_id,outcrop_id,thinsection_id
-1,SP6,JB,2021,Cabo S. Vicente,37.02294,-8.99541,1,1,1
-2,SP7,JB,2021,Cabo S. Vicente,37.02327,-8.99521,1,1,2
-3,SP8,JB,2021,Ponta dos Altos,37.02737,-8.98043,1,2,
-4,SP9,JB,2021,Ponta dos Altos,37.02731,-8.98031,1,2,3
-5,SP10,JB,2021,Ponta dos Altos,37.02727,-8.98022,1,2,4
-6,SP26,JB,2022,Cabo S. Vicente,37.02353,-8.99455,1,1,
-7,SP47,JB,2022,Casal da Colina,37.10376,-7.94561,1,3,
-8,SP48,JB,2022,Casal da Colina,37.10384,-7.94559,1,3,
-9,SP57,JB,2022,Jordana,37.11571,-7.82931,1,4,
-10,RT82,TP,,Cabo S. Vicente,,,1,1,
+id,name,researcher,year,location,latitude,longitude,storage_id,outcrop_id
+1,SP6,JB,2021,Cabo S. Vicente,37.02294,-8.99541,1,1
+2,SP7,JB,2021,Cabo S. Vicente,37.02327,-8.99521,1,1
+3,SP8,JB,2021,Ponta dos Altos,37.02737,-8.98043,1,2
+4,SP9,JB,2021,Ponta dos Altos,37.02731,-8.98031,1,2
+5,SP10,JB,2021,Ponta dos Altos,37.02727,-8.98022,1,2
+6,SP26,JB,2022,Cabo S. Vicente,37.02353,-8.99455,1,1
+7,SP47,JB,2022,Casal da Colina,37.10376,-7.94561,1,3
+8,SP48,JB,2022,Casal da Colina,37.10384,-7.94559,1,3
+9,SP57,JB,2022,Jordana,37.11571,-7.82931,1,4
+10,RT82,TP,,Cabo S. Vicente,,,1,1
