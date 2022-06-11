@@ -200,3 +200,10 @@ header h1 {
   -moz-transition: -moz-transform 0.3s 0.7s, opacity 0s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0s 0.7s;
 }
+
+
+.navanchor {
+  height: 75vh;
+  margin: 0;
+  scroll-margin-top: 10000em;
+}
