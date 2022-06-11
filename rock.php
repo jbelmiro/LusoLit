@@ -22,7 +22,7 @@ $row = mysqli_fetch_row($result);
 <head>
 	<title>Astro's Rock Collection</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="js\bootstrap.js"></script>
 	  <script src="js\modernizr.js"></script> <!-- Modernizr -->
   <link rel="stylesheet" href="css\reset.css"> <!-- CSS reset -->
   <link rel="stylesheet" href="css\style.css"> <!-- Resource style -->
@@ -69,15 +69,44 @@ $row = mysqli_fetch_row($result);
     <p class="h5" style=" position: relative;right:-30px">Macroscopic Description</p>
     <p class="lead alert alert-dark" role="alert""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim</p>
    
-
-    <div class="item">
-      <figure class="cd-image-container">
-    <img src="img\SP36_005_CPL.avif" alt="Original Image">
-    <span class="cd-image-label" data-type="original"></span>
+   
+   <div id="carouselIndicator" class="carousel carousel-dark slide" data-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="right: -5%;">
+       <figure class="cd-image-container">
+    <img src="img\SP36_005_CPL.avif">
     </figure>
-    </div> 
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="right: -5%;">
+       <figure class="cd-image-container">
+    <img src="img\SP36_005_CPL.avif">
+    </figure>
+    </div>
+    <div class="carousel-item" style="right: -5%;">
+       <figure class="cd-image-container">
+    <img src="img\SP36_005_CPL.avif">
+    </figure>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 
-
+</div>
     
 <p class="h3" style="scroll-margin-top: 2em" id="petrography">Petrography</p>
     <p class="h5" style=" position: relative;right:-30px">Description</p>
@@ -102,18 +131,49 @@ $row = mysqli_fetch_row($result);
     <p class="h5" style=" position: relative;right:-30px">Description</p>
     <p class="lead alert alert-dark" role="alert""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim</p>
 
-<div class="item">
-      <figure class="cd-image-container">
-    <img src="img\SP36_005_CPL.avif" alt="Original Image">
-    <span class="cd-image-label" data-type="original"></span>
+   <div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="right: -5%;">
+       <figure class="cd-image-container">
+    <img src="img\SP36_005_CPL.avif">
     </figure>
-    </div> 
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="right: -5%;">
+       <figure class="cd-image-container">
+    <img src="img\SP36_005_CPL.avif">
+    </figure>
+    </div>
+    <div class="carousel-item" style="right: -5%;">
+       <figure class="cd-image-container">
+    <img src="img\SP36_005_CPL.avif">
+    </figure>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
 
   <p class="lead alert alert-dark" role="alert"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim.</p>
  
 <p class="h3" id="location">Location</p>
 
-<div class="mapouter"><div class="gmap_canvas"><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bishops%20stortford&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative; right: -380;text-align:right;height:500px;width:900px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+<div class="mapouter "><div class="gmap_canvas "><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bishops%20stortford&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative; right: -380;text-align:right;height:500px;width:900px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
   </div>
 </div>
   </div>

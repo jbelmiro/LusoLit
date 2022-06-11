@@ -23,7 +23,9 @@ a {
 
 img {
   max-width: 100%;
+  vertical-align: middle;
 }
+
 
 /* -------------------------------- 
 
@@ -203,7 +205,10 @@ header h1 {
 
 
 .navanchor {
-  height: 75vh;
   margin: 0;
   scroll-margin-top: 10000em;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
 }
