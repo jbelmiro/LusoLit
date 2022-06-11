@@ -72,7 +72,7 @@ $row = mysqli_fetch_row($result);
 
     <div class="item">
       <figure class="cd-image-container">
-    <img src="img\SP36_005_CPL" alt="Original Image">
+    <img src="img\SP36_005_CPL.avif" alt="Original Image">
     <span class="cd-image-label" data-type="original"></span>
     </figure>
     </div> 
@@ -85,11 +85,11 @@ $row = mysqli_fetch_row($result);
   
 <div class="item">
       <figure class="cd-image-container">
-    <img src="img\SP36_005_CPL" alt="Original Image">
+    <img src="img\SP36_005_CPL.avif" alt="Original Image">
     <span class="cd-image-label" data-type="original"></span>
 
     <div class="cd-resize-img"> <!-- the resizable image on top -->
-      <img src="img\SP36_005_PPL" alt="Modified Image">
+      <img src="img\SP36_005_PPL.avif" alt="Modified Image">
       <span class="cd-image-label" data-type="modified"></span>
     </div>
     <span class="cd-handle"></span>
@@ -104,7 +104,7 @@ $row = mysqli_fetch_row($result);
 
 <div class="item">
       <figure class="cd-image-container">
-    <img src="img\SP36_005_CPL" alt="Original Image">
+    <img src="img\SP36_005_CPL.avif" alt="Original Image">
     <span class="cd-image-label" data-type="original"></span>
     </figure>
     </div> 
