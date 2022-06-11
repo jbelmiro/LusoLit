@@ -77,7 +77,7 @@ $row = mysqli_fetch_row($result);
     <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active" style="right: -5%;">
+    <div class="carousel-item active" ">
        <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif">
     </figure>
@@ -86,12 +86,12 @@ $row = mysqli_fetch_row($result);
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div class="carousel-item" style="right: -5%;">
+    <div class="carousel-item" ">
        <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif">
     </figure>
     </div>
-    <div class="carousel-item" style="right: -5%;">
+    <div class="carousel-item" ">
        <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif">
     </figure>
@@ -138,7 +138,7 @@ $row = mysqli_fetch_row($result);
     <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active" style="right: -5%;">
+    <div class="carousel-item active" ">
        <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif">
     </figure>
@@ -147,12 +147,12 @@ $row = mysqli_fetch_row($result);
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div class="carousel-item" style="right: -5%;">
+    <div class="carousel-item" ">
        <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif">
     </figure>
     </div>
-    <div class="carousel-item" style="right: -5%;">
+    <div class="carousel-item" ">
        <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif">
     </figure>
