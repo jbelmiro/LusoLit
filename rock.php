@@ -65,16 +65,25 @@ $row = mysqli_fetch_row($result);
   <div class="container">
     <p class="display-3">Astro's Rock Collection 
 
-    <p class="h3 navanchor" style="scroll-margin-top: 2em" id="description">Description</p>
-    <p class="h5" style=" position: relative;right:-30px">Macroscopic Description</p>
-    <p class="lead alert alert-dark" role="alert""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim</p>
+    <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description">Sample Name</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">Collection:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Year of Collection:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Lead Researcher:</p>
+    <a class="btn btn-primary mb-5" style=" position: relative;right:-30px" href="https://rock.nebulatech.co.uk" role="button">Download Sample Information</a>
    
-   
-   <div id="carouselIndicator" class="carousel carousel-dark slide" data-interval="false">
+  
+    
+<p class="h3" style="scroll-margin-top: 2em" id="petrography">Appearance</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">Colour:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Fabric:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Cortex:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Quality:</p>
+    
+<div id="carouselIndicator2" class="carousel carousel-dark slide " data-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" ">
@@ -97,22 +106,17 @@ $row = mysqli_fetch_row($result);
     </figure>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-
 </div>
-    
-<p class="h3" style="scroll-margin-top: 2em" id="petrography">Petrography</p>
-    <p class="h5" style=" position: relative;right:-30px">Description</p>
-    <p class="lead alert alert-dark" role="alert""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim</p>
-  
-<div class="item">
+
+<div class="item mt-2">
       <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif" alt="Original Image">
     <span class="cd-image-label" data-type="original"></span>
