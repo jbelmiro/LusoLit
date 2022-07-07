@@ -2,7 +2,7 @@
 <?php 
 	include("config.php");
 ?>
-<html>
+<html lang="">
 <head>
 	<title>Astro's Rock Collection</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -44,7 +44,7 @@
 		<p class="display-1">Astro's Rock Collection</p>
 		<div class="row margin-top:5px">
 		<div class="col-sm-12 ">
-			<input type="text" name="search" id="search" placeholder="Search" class="form-control" />
+            <label for="search"></label><input type="text" name="search" id="search" placeholder="Search" class="form-control" />
 			
 			<div class='mt-2' id="result"></div>
 		</div>

@@ -73,13 +73,13 @@ $row = mysqli_fetch_row($result);
    
   
     
-<p class="h3" style="scroll-margin-top: 2em" id="petrography">Appearance</p>
+<p class="h3" style="scroll-margin-top: 2em" id="appearance">Appearance</p>
     <p class="h5 mb-3" style=" position: relative;right:-30px ">Colour:</p>
     <p class="h5 mb-3" style=" position: relative;right:-30px">Fabric:</p>
     <p class="h5 mb-3" style=" position: relative;right:-30px">Cortex:</p>
     <p class="h5 mb-3" style=" position: relative;right:-30px">Quality:</p>
     
-<div id="carouselIndicator2" class="carousel carousel-dark slide " data-interval="false">
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -116,6 +116,11 @@ $row = mysqli_fetch_row($result);
   </button>
 </div>
 
+<p class="h3 mt-5" style="scroll-margin-top: 2em" id="petrography">Petrography</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">Textural classification:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Composition:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Other textural characteristics:</p>
+    
 <div class="item mt-2">
       <figure class="cd-image-container">
     <img src="img\SP36_005_CPL.avif" alt="Original Image">
@@ -128,13 +133,16 @@ $row = mysqli_fetch_row($result);
     <span class="cd-handle"></span>
   </figure> 
     </div>
+
   
     <div class="mt-4">
 
-<p class="h3" style="scroll-margin-top: 2em" id="outcrop">Outcrop</p>
-    <p class="h5" style=" position: relative;right:-30px">Description</p>
-    <p class="lead alert alert-dark" role="alert""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim</p>
-
+<p class="h3 mt-5" style="scroll-margin-top: 2em" id="outcrop">Outcrop</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">State:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Age:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Reference:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Description:</p>
+    
    <div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -173,14 +181,14 @@ $row = mysqli_fetch_row($result);
 
 </div>
 
-  <p class="lead alert alert-dark" role="alert"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum orci nibh. Nam ullamcorper, nisi eu consequat porttitor, eros elit consequat elit, non egestas orci urna ac mauris. Sed vehicula non nunc efficitur mollis. Aenean in faucibus turpis, non consequat ante. Cras nec dolor turpis. Aenean velit nisi, placerat eget rhoncus eu, porttitor id purus. Aliquam massa sapien, euismod a efficitur eu, semper ac enim. Ut odio mi, posuere quis magna a, malesuada consequat ante. Integer tincidunt ultrices lectus, non gravida elit feugiat quis. Donec molestie orci est, eu vehicula purus tristique nec. Cras et consequat arcu. Morbi a rutrum sapien. Mauris eget lorem aliquet, hendrerit risus id, consequat enim.</p>
- 
-<p class="h3" id="location">Location</p>
+<p class="h3 mt-5" id="location">Location</p>
 
 <div class="mapouter "><div class="gmap_canvas "><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bishops%20stortford&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative; right: -380;text-align:right;height:500px;width:900px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
   </div>
 </div>
   </div>
+
+  
 
 <div class="mt-8">
 
