@@ -1,10 +1,10 @@
-id,geosamples_id,description,color,luster,translucency,feel,grain,structure,pattern,cortex,inclusions,quality,fractures
-1,1,,Pink,shiny,sub-translucent,coarse,fine,homogeneous,,rounded,,bad,
-2,2,,Yellow,not shiny,opaque,fine,fine,variable,something,outcrop,white inclusions,good,
-3,3,,purple,not shiny,opaque,fine,fine,variable,something,outcrop,large fossils,medium,yes
-4,4,,blue,not shiny,opaque,fine,fine,variable,something,outcrop,small fossils,medium,
-5,5,,blue,not shiny,opaque,fine,fine,variable,something,outcrop,small fossils,medium,
-6,6,,blue,not shiny,opaque,fine,fine,variable,something,outcrop,small fossils,medium,yes
-7,7,,blue,not shiny,opaque,fine,fine,variable,something,outcrop,small fossils,medium,
-8,8,,blue,not shiny,opaque,fine,fine,variable,something,outcrop,small fossils,medium,
-9,9,,blue,not shiny,opaque,fine,fine,variable,something,outcrop,small fossils,medium,
+id,geosamples_id,color,fabric,cortex,quality
+1,1,,Pink,shiny,sub-translucent
+2,2,,Yellow,not shiny,opaque
+3,3,,purple,not shiny,opaque
+4,4,,blue,not shiny,opaque
+5,5,,blue,not shiny,opaque
+6,6,,blue,not shiny,opaque
+7,7,,blue,not shiny,opaque
+8,8,,blue,not shiny,opaque
+9,9,,blue,not shiny,opaque
