@@ -7,7 +7,7 @@ $return = '';
 if(isset($_POST["query"]))
 {
 	$search = mysqli_real_escape_string($conn, $_POST["query"]);
-	$query = "SELECT DISTINCT geosamples.name, geosamples.longitude, geosamples.latitude, geosamples.location, geosamples.id, geosamples.researcher, storage.storage_id, storage.city, outcrop.age, geoprovenance.*, thinsection_id FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id
+	$query = "SELECT DISTINCT geosamples.name, geosamples.longitude, geosamples.latitude, geosamples.location, geosamples.id, geoprovenance.*, thinsection_id FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id
 	WHERE geosamples.name  LIKE '%".$search."%' 
 	OR location LIKE '%".$search."%' 
 	OR state LIKE '%".$search."%'

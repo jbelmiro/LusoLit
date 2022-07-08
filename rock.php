@@ -8,12 +8,15 @@ $rock_id = $_GET['id'];
 
 $query = 'SELECT * FROM geosamples WHERE id = ' . $rock_id;
 
-$result = mysqli_query($conn, "SELECT * FROM geosamples WHERE id = $rock_id");
+$query = 'SELECT geosamples.name, storage.store_name, geosamples.year, geosamples.researcher, geosamples.latitude, geosamples.longitude, macroscopy.color, macroscopy.fabric, macroscopy.cortex, macroscopy.quality, outcrop.age, outcrop.reference, geoprovenance.description, geoprovenance.state, petrography.texturalclassification, petrography.composition, petrography.othertextural  FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id INNER JOIN macroscopy on macroscopy.geosamplesid = geosamples.id INNER JOIN petrography on petrography.thinsection_id = thinsection.thin_id WHERE geosamples_id = ' . $rock_id;
+
+$result = mysqli_query($conn, $query);
 if (!$result) {
-    echo 'Could not run query: ' . mysql_error();
+    echo 'Could not run query: ' . mysqli_error();
     exit;
 }
-$row = mysqli_fetch_row($result);
+
+$row = mysqli_fetch_array($result);
 
 ?>
 
@@ -27,7 +30,7 @@ $row = mysqli_fetch_row($result);
   <link rel="stylesheet" href="css\reset.css"> <!-- CSS reset -->
   <link rel="stylesheet" href="css\style.css"> <!-- Resource style -->
   <link href="css\bootstrap.css" rel="stylesheet">
-  
+
 </head>
 <div class="container-fluid">
 <div class="content-wrapper">
@@ -65,20 +68,20 @@ $row = mysqli_fetch_row($result);
   <div class="container">
     <p class="display-3">Astro's Rock Collection 
 
-    <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description">Sample Name</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">Collection:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Year of Collection:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Lead Researcher:</p>
+    <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description"> Sample <?php echo $row[0] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">Collection: <?php echo $row[1] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Year of Collection: <?php echo $row[2] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Lead Researcher: <?php echo $row[3] ?></p>
     <a class="btn btn-primary mb-5" style=" position: relative;right:-30px" href="https://rock.nebulatech.co.uk" role="button">Download Sample Information</a>
    
   
     
 <p class="h3" style="scroll-margin-top: 2em" id="appearance">Appearance</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">Colour:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Fabric:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Cortex:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Quality:</p>
-    
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">Colour: <?php echo $row[6] ?>  </p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Fabric: <?php echo $row[7] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Cortex: <?php echo $row[8] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Quality: <?php echo $row[9] ?></p>
+
 <div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -117,9 +120,9 @@ $row = mysqli_fetch_row($result);
 </div>
 
 <p class="h3 mt-5" style="scroll-margin-top: 2em" id="petrography">Petrography</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">Textural classification:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Composition:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Other textural characteristics:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">Textural classification: <?php echo $row[14] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Composition: <?php echo $row[15] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Other textural characteristics: <?php echo $row[16] ?></p>
     
 <div class="item mt-2">
       <figure class="cd-image-container">
@@ -138,10 +141,10 @@ $row = mysqli_fetch_row($result);
     <div class="mt-4">
 
 <p class="h3 mt-5" style="scroll-margin-top: 2em" id="outcrop">Outcrop</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">State:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Age:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Reference:</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Description:</p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px ">State: <?php echo $row[13] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Age: <?php echo $row[10] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Reference: <?php echo $row[11] ?></p>
+    <p class="h5 mb-3" style=" position: relative;right:-30px">Description: <?php echo $row[12] ?></p>
     
    <div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
   <div class="carousel-indicators">
@@ -183,7 +186,19 @@ $row = mysqli_fetch_row($result);
 
 <p class="h3 mt-5" id="location">Location</p>
 
-<div class="mapouter "><div class="gmap_canvas "><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bishops%20stortford&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative; right: -380;text-align:right;height:500px;width:900px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+<p align="center"><iframe style="display:block"
+width = 75%
+height="50%"
+frameborder="0"
+scrolling="no"
+marginheight="0"
+marginwidth="0"
+src="https://maps.google.com/maps?q=<?php echo $row[4]?>+<?php echo $row[5]?>&hl=en&z=14&amp;output=embed"
+>
+</iframe>
+<br />
+</p>
+
   </div>
 </div>
   </div>
