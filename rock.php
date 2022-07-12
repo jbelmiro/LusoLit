@@ -185,7 +185,7 @@ $row = mysqli_fetch_array($result);
 </div>
 
 <p class="h3 mt-5" id="location">Location</p>
-
+<p class="h5 mb-4" style=" position: relative;right:-30px ">Coordinates: <?php echo $row[4]?>+<?php echo $row[5]?></p>
 <p align="center"><iframe style="display:block"
 width = 75%
 height="50%"
