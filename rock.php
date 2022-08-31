@@ -193,7 +193,7 @@ frameborder="0"
 scrolling="no"
 marginheight="0"
 marginwidth="0"
-src="https://maps.google.com/maps?q=<?php echo $row['latitude']?>+<?php echo $row['longitude']?>&hl=en&z=14&amp;output=embed"
+src="https://maps.google.com/maps?q=<?php echo $row['latitude']?>+<?php echo $row['longitude']?>&hl=en&z=18&amp;output=embed"
 >
 </iframe>
 <br />
