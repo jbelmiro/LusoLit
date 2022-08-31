@@ -16,7 +16,7 @@ if (!$result) {
     exit;
 }
 
-$row = mysqli_fetch_array($result);
+$row = mysqli_fetch_array($result,MYSQLI_BOTH);
 
 ?>
 
@@ -24,12 +24,12 @@ $row = mysqli_fetch_array($result);
 <html>
 <head>
 	<title>Astro's Rock Collection</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="js\bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  <!-- AJAX -->
+	<script src="js\bootstrap.js"></script> <!-- JS -->
 	  <script src="js\modernizr.js"></script> <!-- Modernizr -->
   <link rel="stylesheet" href="css\reset.css"> <!-- CSS reset -->
   <link rel="stylesheet" href="css\style.css"> <!-- Resource style -->
-  <link href="css\bootstrap.css" rel="stylesheet">
+  <link href="css\bootstrap.css" rel="stylesheet"> <!-- Bootstrap -->
 
 </head>
 <div class="container-fluid">
@@ -68,19 +68,19 @@ $row = mysqli_fetch_array($result);
   <div class="container">
     <p class="display-3">Astro's Rock Collection 
 
-    <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description"> Sample <?php echo $row[0] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">Collection: <?php echo $row[1] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Year of Collection: <?php echo $row[2] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Lead Researcher: <?php echo $row[3] ?></p>
-    <a class="btn btn-primary mb-5" style=" position: relative;right:-30px" href="https://rock.nebulatech.co.uk" role="button">Download Sample Information</a>
+    <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description"> Sample <?php echo $row['name'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px ">Collection: <?php echo $row['store_name'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Year of Collection: <?php echo $row['year'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Lead Researcher: <?php echo $row['researcher'] ?></p>
+    <a class="btn btn-primary mb-5" style=" position: relative;right:-30px" href="img/Website_structure (1).pdf" role="button">Download Sample Information</a>
    
   
     
 <p class="h3" style="scroll-margin-top: 2em" id="appearance">Appearance</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">Colour: <?php echo $row[6] ?>  </p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Fabric: <?php echo $row[7] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Cortex: <?php echo $row[8] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Quality: <?php echo $row[9] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px ">Colour: <?php echo $row['color'] ?>  </p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Fabric: <?php echo $row['fabric'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Cortex: <?php echo $row['cortex'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Quality: <?php echo $row['quality'] ?></p>
 
 <div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
   <div class="carousel-indicators">
@@ -94,7 +94,7 @@ $row = mysqli_fetch_array($result);
     <img src="img\SP36_005_CPL.avif">
     </figure>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
+        <h6>Second slide label</h6>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
@@ -120,9 +120,9 @@ $row = mysqli_fetch_array($result);
 </div>
 
 <p class="h3 mt-5" style="scroll-margin-top: 2em" id="petrography">Petrography</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">Textural classification: <?php echo $row[14] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Composition: <?php echo $row[15] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Other textural characteristics: <?php echo $row[16] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px ">Textural classification: <?php echo $row['texturalclassification'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Composition: <?php echo $row['composition'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Other textural characteristics: <?php echo $row['othertextural'] ?></p>
     
 <div class="item mt-2">
       <figure class="cd-image-container">
@@ -141,16 +141,16 @@ $row = mysqli_fetch_array($result);
     <div class="mt-4">
 
 <p class="h3 mt-5" style="scroll-margin-top: 2em" id="outcrop">Outcrop</p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px ">State: <?php echo $row[13] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Age: <?php echo $row[10] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Reference: <?php echo $row[11] ?></p>
-    <p class="h5 mb-3" style=" position: relative;right:-30px">Description: <?php echo $row[12] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px ">State: <?php echo $row['state'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Age: <?php echo $row['age'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Reference: <?php echo $row['reference'] ?></p>
+    <p class="h6 mb-3" style=" position: relative;right:-30px">Description: <?php echo $row['description'] ?></p>
     
-   <div id="carouselIndicator2" class="carousel carousel-dark slide" data-interval="false">
+   <div id="carouselIndicator3" class="carousel carousel-dark slide" data-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselIndicator2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselIndicator3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselIndicator3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselIndicator3" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" ">
@@ -158,7 +158,7 @@ $row = mysqli_fetch_array($result);
     <img src="img\SP36_005_CPL.avif">
     </figure>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
+        <h6>Second slide label</h6>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
@@ -173,11 +173,11 @@ $row = mysqli_fetch_array($result);
     </figure>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator3" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator3" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -185,7 +185,7 @@ $row = mysqli_fetch_array($result);
 </div>
 
 <p class="h3 mt-5" id="location">Location</p>
-<p class="h5 mb-4" style=" position: relative;right:-30px ">Coordinates: <?php echo $row[4]?>+<?php echo $row[5]?></p>
+<p class="h6 mb-4" style=" position: relative;right:-30px ">Coordinates: <?php echo $row['latitude']?>+<?php echo $row['longitude']?></p>
 <p align="center"><iframe style="display:block"
 width = 75%
 height="50%"
@@ -193,7 +193,7 @@ frameborder="0"
 scrolling="no"
 marginheight="0"
 marginwidth="0"
-src="https://maps.google.com/maps?q=<?php echo $row[4]?>+<?php echo $row[5]?>&hl=en&z=14&amp;output=embed"
+src="https://maps.google.com/maps?q=<?php echo $row['latitude']?>+<?php echo $row['longitude']?>&hl=en&z=14&amp;output=embed"
 >
 </iframe>
 <br />

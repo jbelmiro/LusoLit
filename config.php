@@ -1,7 +1,5 @@
 <?php
 
-
-
 $config = parse_ini_file('../config.ini');
 
 //Create connection and select DB
