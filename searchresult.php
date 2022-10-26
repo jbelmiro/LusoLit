@@ -7,20 +7,20 @@ $return = '';
 if(isset($_POST["query"]))
 {
 	$search = mysqli_real_escape_string($conn, $_POST["query"]);
-	$query = "SELECT DISTINCT geosamples.name, geosamples.location, geosamples.id, geoprovenance.*, thinsection_id FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id
+	$query = "SELECT DISTINCT geosamples.name, geosamples.id, geosamples.location, geoprovenance.state, geosamples.thinsection_id FROM geosamples INNER JOIN geoprovenance ON geosamples.id = geoprovenance.geosamples_id
 	WHERE geosamples.name  LIKE '%".$search."%' 
 	OR location LIKE '%".$search."%' 
 	OR state LIKE '%".$search."%'
 	";}
 else
 {
-	$query = "SELECT geosamples.*, storage.*, outcrop.*, thinsection.thin_id, geoprovenance.* FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id;
+	$query = "SELECT geosamples.name, geosamples.id, geosamples.location, geoprovenance.state, geosamples.thinsection_id FROM geosamples INNER JOIN geoprovenance ON geosamples.id = geoprovenance.geosamples_id;
     ";
 }
 $result = mysqli_query($conn, $query);
 if(mysqli_num_rows($result) > 0)
 {
-	
+
 	$return .='
 	<div class="table-responsive">
 	<table class="table table-stripe">
@@ -34,14 +34,19 @@ if(mysqli_num_rows($result) > 0)
 	</tr>';
 	while($row1 = mysqli_fetch_array($result))
 	{
-		$thin = ($row1["thinsection_id"]=='0')? "Yes" : "No";
+    if ($row1['thinsection_id'] > 0){
+    $thin = 'Yes';
+    } else {
+    $thin = 'No';
+    }
 
-		$return .= '
+
+$return .= '
 		<tr>
 		<td><a href="rock.php?id=' . $row1['id'] . '">' . $row1['name'] . '</a></td>
 		<td>'.$row1["location"].'</td>
 		<td>'.$row1["state"].'</td>
-		</td><td>'.$thin.'</td>
+		<td>'.$thin.'</td>
 
 		</tr>';
 	}
