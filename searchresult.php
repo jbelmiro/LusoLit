@@ -23,7 +23,7 @@ if(mysqli_num_rows($result) > 0)
 
 	$return .='
 	<div class="table-responsive">
-	<table class="table table-stripe">
+	<table class="table table-striped">
 	<thead>
 	<tr>
 		<th scope="col">ID</th>

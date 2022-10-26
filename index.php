@@ -4,7 +4,7 @@
 ?>
 <html lang="">
 <head>
-	<title>Astro's Rock Collection</title>
+	<title>LUSO LIT</title>
     <script src="js\bootstrap.js"></script>
     <script src="js\jquery-3.6.0.js"></script>
 	<link href="css\bootstrap.css" rel="stylesheet">
@@ -38,10 +38,19 @@
 	</script>
 </head>
 <body>
-<div class="container-fluid">       
+<div class="container-fluid">
+
 <div class="content-wrapper">
+
+
 	<div class="container">
-		<p class="display-1">Astro's Rock Collection</p>
+
+        <div class="row mb-3">
+            <div class="col-md-3 themed-grid-col "><img src="img/lusolit_logo%20smol.png" class="img-thumbnail" /></div>
+            <div class="col-md-8 themed-grid-col align-self-end"><h1>Luso Lit</h1></div>
+        </div>
+
+
 		<div class="row margin-top:5px">
 		<div class="col-sm-12 ">
             <label for="search"></label><input type="text" name="search" id="search" placeholder="Search" class="form-control" />
