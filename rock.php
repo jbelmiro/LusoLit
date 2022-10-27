@@ -6,8 +6,6 @@ include("config.php");
 
 $rock_id = $_GET['id'];
 
-
-
 $query = 'SELECT * FROM geosamples WHERE id = ' . $rock_id;
 
 $query = 'SELECT geosamples.name, storage.store_name, geosamples.year, geosamples.researcher, geosamples.latitude, geosamples.longitude, macroscopy.color, macroscopy.fabric, macroscopy.cortex, macroscopy.quality, outcrop.age, outcrop.reference, geoprovenance.description, geoprovenance.state, petrography.texturalclassification, petrography.composition, petrography.othertextural  FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id INNER JOIN macroscopy on macroscopy.geosamples_id = geosamples.id INNER JOIN petrography on petrography.thinsection_id = thinsection.thin_id WHERE geosamples.id = ' . $rock_id;
@@ -20,7 +18,6 @@ if (!$result) {
 
 $row = mysqli_fetch_array($result,MYSQLI_BOTH);
 
-$rock_file = 'docs/' .$row['name'] . '.pdf'
 ?>
 
 
@@ -39,7 +36,7 @@ $rock_file = 'docs/' .$row['name'] . '.pdf'
 <div class="content-wrapper">
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
-    <a class="btn btn-primary" style="background-color:#9e0000"  href="https://rock.nebulatech.co.uk" role="button">Go Back</a>
+    <a class="btn btn-primary" href="https://rock.nebulatech.co.uk" role="button">Go Back</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -69,15 +66,16 @@ $rock_file = 'docs/' .$row['name'] . '.pdf'
 <<div class="container-fluid">       
 <div class="content-wrapper">
   <div class="container">
+    <p class="display-3">Astro's Rock Collection 
 
     <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description"> Sample <?php echo $row['name'] ?></p>
     <p class="h6 mb-3" style=" position: relative;right:-30px ">Collection: <?php echo $row['store_name'] ?></p>
     <p class="h6 mb-3" style=" position: relative;right:-30px">Year of Collection: <?php echo $row['year'] ?></p>
     <p class="h6 mb-3" style=" position: relative;right:-30px">Lead Researcher: <?php echo $row['researcher'] ?></p>
-    <a class="btn btn-primary mb-5" style=" position: relative;right:-30px; background-color:#9e0000" href="<?php echo $rock_file; ?>" role="button">Download Sample Information</a>
+    <a class="btn btn-primary mb-5" style=" position: relative;right:-30px" href="img/Website_structure (1).pdf" role="button">Download Sample Information</a>
    
   
-
+    
 <p class="h3" style="scroll-margin-top: 2em" id="appearance">Appearance</p>
     <p class="h6 mb-3" style=" position: relative;right:-30px ">Colour: <?php echo $row['color'] ?>  </p>
     <p class="h6 mb-3" style=" position: relative;right:-30px">Fabric: <?php echo $row['fabric'] ?></p>
