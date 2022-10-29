@@ -4,7 +4,7 @@
 ?>
 <html lang="">
 <head>
-	<title>Astro's Rock Collection</title>
+	<title>Luso Lit</title>
     <script src="js\bootstrap.js"></script>
     <script src="js\jquery-3.6.0.js"></script>
 	<link href="css\bootstrap.css" rel="stylesheet">

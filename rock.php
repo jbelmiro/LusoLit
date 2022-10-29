@@ -66,7 +66,7 @@ if (!file_exists($outcrop1)){
 
 <html>
 <head>
-    <title>Astro's Rock Collection</title>
+    <title>Luso Lit</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  <!-- AJAX -->
     <script src="js\bootstrap.js"></script> <!-- JS -->
     <script src="js\modernizr.js"></script> <!-- Modernizr -->
@@ -140,7 +140,7 @@ if (!file_exists($outcrop1)){
 
                         <?php if(file_exists($appearance6)){
                             echo '
-                        <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                        <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">
