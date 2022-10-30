@@ -997,11 +997,11 @@ if (!file_exists($outcrop1)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1037,11 +1037,11 @@ if (!file_exists($outcrop1)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1073,11 +1073,11 @@ if (!file_exists($outcrop1)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1103,11 +1103,11 @@ if (!file_exists($outcrop1)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1128,11 +1128,11 @@ if (!file_exists($outcrop1)){
                         <img src="'.$outcrop2.'" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1147,11 +1147,11 @@ if (!file_exists($outcrop1)){
                         <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>

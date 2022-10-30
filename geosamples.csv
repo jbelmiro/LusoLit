@@ -5,7 +5,7 @@ id,name,researcher,year,location,latitude,longitude,storage_id,outcrop_id,thinse
 4,SP9_PdA,JB,2021,Ponta dos Altos,37.02731,-8.98031,1,2,3
 5,SP10_PdA,JB,2021,Ponta dos Altos,37.02727,-8.98022,1,2,4
 6,SP47_CdC,JB,2022,Casal da Colina,37.10376,-7.94561,1,3,0
-7,RT82,TP,<2016,Cabo S. Vicente,N/A,N/A,1,1,29
+7,RT82,TP,2016,Cabo S. Vicente,N/A,N/A,1,1,29
 8,SP3_CSV,JB,2021,Cabo S. Vicente,37.02324,-8.9954,1,1,0
 9,SP11_PtA,JB,2021,Ponta dos Altos,37.00468,-8.93353,1,2,0
 10,SP13_PBX,JB,2021,Praia de Belixe,37.02626,-8.96377,1,6,0
@@ -51,8 +51,8 @@ id,name,researcher,year,location,latitude,longitude,storage_id,outcrop_id,thinse
 50,SP62_OLV_b,JB,2022,Oliveiras,37.13375,-7.71372,1,17,0
 51,SP63_OLV,JB,2022,Oliveiras,37.13467,-7.71415,1,17,0
 52,SP64_OLV,JB,2022,Oliveiras,37.13469,-7.71416,1,17,0
-53,SP65_MALH,JB,2022,Malhão,37.13827,-7.70908,1,18,0
-54,SP66_MALH,JB,2022,Malhão,37.13827,-7.70908,1,18,0
+53,SP65_MALH,JB,2022,Malhao,37.13827,-7.70908,1,18,0
+54,SP66_MALH,JB,2022,Malhao,37.13827,-7.70908,1,18,0
 55,SP67_DESCAM,JB,2022,Monte descampado,37.14232,-7.69188,1,19,0
 56,SP68_PEDR,JB,2022,Pedreira,37.14399,-7.69642,1,20,0
 57,SP69_MAR,JB,2022,Mareta,37.00581,-8.93712,1,21,0
