@@ -21,8 +21,8 @@ $petroppl2 = 'img/' .$row['name']. '_002_PPL.avif';
 $petroxpl2 = 'img/' .$row['name']. '_002_XPL.avif';
 $petroppl3 = 'img/' .$row['name']. '_003_PPL.avif';
 $petroxpl3 = 'img/' .$row['name']. '_003_XPL.avif';
-$petroppl4 = 'img/' .$row['name']. '_005_PPL.avif';
-$petroxpl4 = 'img/' .$row['name']. '_005_XPL.avif';
+$petroppl4 = 'img/' .$row['name']. '_004_PPL.avif';
+$petroxpl4 = 'img/' .$row['name']. '_004_XPL.avif';
 $petroppl5 = 'img/' .$row['name']. '_005_PPL.avif';
 $petroxpl5 = 'img/' .$row['name']. '_005_XPL.avif';
 $petroppl6 = 'img/' .$row['name']. '_006_PPL.avif';
@@ -365,8 +365,7 @@ if (!file_exists($outcrop1)){
                             echo '
                             
                             <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                        
                         </div>
                     </div>
                     <div class="carousel-item" ">
@@ -581,8 +580,7 @@ if (!file_exists($outcrop1)){
                             echo '
 
                                 <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            
                         </div>
                     </div>
                     <div class="carousel-item" ">
@@ -671,8 +669,7 @@ if (!file_exists($outcrop1)){
                             echo '
 
                                 <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            
                         </div>
                     </div>
                     <div class="carousel-item" ">
@@ -751,8 +748,7 @@ if (!file_exists($outcrop1)){
                         echo '
 
                                 <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            
                         </div>
                     </div>
                     <div class="carousel-item" ">
@@ -816,8 +812,7 @@ if (!file_exists($outcrop1)){
                         echo '
 
                                 <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            
                         </div>
                     </div>
                     <div class="carousel-item" ">
@@ -867,8 +862,7 @@ if (!file_exists($outcrop1)){
                         echo '
 
                                 <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            
                         </div>
                     </div>
                     <div class="carousel-item" ">
@@ -911,8 +905,7 @@ if (!file_exists($outcrop1)){
                         echo '
 
                                 <div class="carousel-caption d-none d-md-block">
-                            <h6>Second slide label</h6>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            
                         </div>
                     </div>
                     <div class="carousel-item" ">
