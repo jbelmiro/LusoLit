@@ -26,8 +26,7 @@
 25,15,SP18_PBX_001_PPL,Iron concentrations and peloids.
 26,18,SP21_BLS_001_PPL,"View of fossils, structure and flaw filled with oxides."
 27,19,SP23_BLN_001_PPL,Fossil or porosity filled with three generations of quartz and chalcedony.
-28,19,SP23_BLN_002_PPL,Poorly preserved fossil with quartz and oxide fill.
-29,19,SP23_BLN_003_PPL,General view of thin section.
+28,19,SP23_BLN_003_PPL,Poorly preserved fossil with quartz and oxide fill.
 30,20,SP24_CSV_001_PPL,"Unidentified fossil replaced by granular megacrystalline quartz, with an outer layer of microcrystalline quartz. Unidentified blue mineral."
 31,20,SP24_CSV_002_PPL,General view of the thin section with representation of wackestone texture and massive microstructure.
 32,20,SP24_CSV_003_PPL,"Different textures in the chert, probably due to differences in the cortex area or existence of dolomite."
@@ -160,8 +159,7 @@
 159,15,SP18_PBX_001_XPL,Iron concentrations and peloids.
 160,18,SP21_BLS_001_XPL,"View of fossils, structure and flaw filled with oxides."
 161,19,SP23_BLN_001_XPL,Fossil or porosity filled with three generations of quartz and chalcedony.
-162,19,SP23_BLN_002_XPL,Poorly preserved fossil with quartz and oxide fill.
-163,19,SP23_BLN_003_XPL,General view of thin section.
+162,19,SP23_BLN_003_XPL,Poorly preserved fossil with quartz and oxide fill.
 164,20,SP24_CSV_001_XPL,"Unidentified fossil replaced by granular megacrystalline quartz, with an outer layer of microcrystalline quartz. Unidentified blue mineral."
 165,20,SP24_CSV_002_XPL,General view of the thin section with representation of wackestone texture and massive microstructure.
 166,20,SP24_CSV_003_XPL,"Different textures in the chert, probably due to differences in the cortex area or existence of dolomite."
@@ -267,3 +265,9 @@
 266,48,SP61_Per_008_XPL,"General view of the packstone texture of the parent rock, filled with muscovite and microcrystalline quartz."
 267,48,SP61_Per_009_XPL,Detail of several unidentifiable fossils (ghosts) in the parent rock. Some of the unidentifiable fossils may be bivalve shells.
 268,48,SP61_Per_010_XPL,Detail of an Echinoid spine (longitudinal section) preserved in the parent rock and replaced with microcrystalline quartz.
+269,20,SP24_CSV_005_XPL,
+270,20,SP24_CSV_005_PPL,
+271,20,SP24_CSV_006_XPL,
+272,20,SP24_CSV_006_PPL,
+273,20,SP24_CSV_007_XPL,
+274,20,SP24_CSV_007_PPL,
