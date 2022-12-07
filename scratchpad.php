@@ -399,3 +399,817 @@ else
            </footer>
        </div>
        </html>
+
+
+
+
+
+
+
+
+
+       <?php if(file_exists($appearance6)){
+           echo '
+                        <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance6.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>';
+       } elseif (file_exists($appearance5)){
+           echo '
+                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" class="d-block w-100" alt="...">
+                            </figure>
+                     
+                       
+                        </div>
+                        </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                            ';
+       }elseif (file_exists($appearance4)){
+           echo '
+                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                ';}elseif (file_exists($appearance3)){
+           echo '
+                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                ';}elseif (file_exists($appearance2)){
+           echo '
+                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                ';}elseif (file_exists($appearance1)){
+           echo '
+                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                ';}
+
+       ?>
+
+       <p class="h3 mt-5" style="scroll-margin-top: 2em" id="petrography">Petrography</p>
+       <p class="h6 mb-3" style=" position: relative;right:-30px ">Textural classification: <?php echo $row['texturalclassification'] ?></p>
+       <p class="h6 mb-3" style=" position: relative;right:-30px">Composition: <?php echo $row['composition'] ?></p>
+       <p class="h6 mb-3" style=" position: relative;right:-30px">Other textural characteristics: <?php echo $row['othertextural'] ?></p>
+
+       <div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+           <div class="carousel-inner">
+               <div class="carousel-item active" ">
+               <figure class="cd-image-container">
+                   <img-comparison-slider>
+                       <img slot="first" width="100%" src="<?php echo $petroppl1 ?>">
+                       <img slot="second" width="100%" src="<?php echo $petroxpl1 ?>">
+                       <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                           <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                       </svg>
+                   </img-comparison-slider>
+               </figure>
+
+               <?php
+
+               if (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8) && file_exists($petroppl9) && file_exists($petroppl9) && file_exists($petroppl10)) {
+
+                   echo '
+                            
+                            <div class="carousel-caption d-none d-md-block">
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <p>Test</p>
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl7.'">
+                            <img slot="second" width="100%" src="'.$petroxpl7.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl8.'">
+                            <img slot="second" width="100%" src="'.$petroxpl8.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl9.'">
+                            <img slot="second" width="100%" src="'.$petroxpl9.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl10.'">
+                            <img slot="second" width="100%" src="'.$petroxpl10.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                
+                            
+                            
+                            ';
+               } elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8) && file_exists($petroppl9))
+               {
+
+                   echo '
+                            
+                            <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                        <figure>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                            </figure>
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <div><h1>iuhwerhuwehriuwheriuh</h1></div>
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl7.'">
+                            <img slot="second" width="100%" src="'.$petroxpl7.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl8.'">
+                            <img slot="second" width="100%" src="'.$petroxpl8.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl9.'">
+                            <img slot="second" width="100%" src="'.$petroxpl9.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                ';
+
+               } elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8))
+               {
+
+                   echo '
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl7.'">
+                            <img slot="second" width="100%" src="'.$petroxpl7.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl8.'">
+                            <img slot="second" width="100%" src="'.$petroxpl8.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                
+                            
+                            
+                            ';
+               } elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7)) {
+
+                   echo '
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="' . $petroppl2 . '">
+                            <img slot="second" width="100%" src="' . $petroxpl2 . '">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="' . $petroppl3 . '">
+                            <img slot="second" width="100%" src="' . $petroxpl3 . '">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="' . $petroppl4 . '">
+                            <img slot="second" width="100%" src="' . $petroxpl4 . '">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="' . $petroppl5 . '">
+                            <img slot="second" width="100%" src="' . $petroxpl5 . '">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="' . $petroppl6 . '">
+                            <img slot="second" width="100%" src="' . $petroxpl6 . '">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="' . $petroppl7 . '">
+                            <img slot="second" width="100%" src="' . $petroxpl7 . '">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                
+                            
+                            
+                            ';
+               }elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6))
+               {
+
+                   echo '
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                            ';}elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5))
+               {
+
+                   echo '
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                        
+                            ';} elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4))
+               {
+
+                   echo '
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        
+                
+                            
+        
+                            ';}elseif (file_exists($petroppl2) && file_exists($petroppl3))
+               {
+
+                   echo '
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            
+                
+                            
+                           
+                            ';}
+               ?>
+
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+           </button>
+       </div>
