@@ -149,30 +149,30 @@ if (!file_exists($outcrop1)){
                         </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                     
                     <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance4.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                     
                     <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance5.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                   
                     <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance6.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance6.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                     </div>
@@ -196,24 +196,24 @@ if (!file_exists($outcrop1)){
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance2.'" loading="lazy" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                     
                     <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance4.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                     
                     <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance5.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                      
                        
@@ -240,18 +240,18 @@ if (!file_exists($outcrop1)){
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                     
                     <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance4.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                         </div>
@@ -275,12 +275,12 @@ if (!file_exists($outcrop1)){
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance3.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                         </div>
                         </div>
@@ -304,7 +304,7 @@ if (!file_exists($outcrop1)){
                             </div>
                         <div class="carousel-item">
                             <figure class="cd-image-container">
-                            <img src="'.$appearance2.'" class="d-block w-100" alt="...">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
                             </figure>
                             </div>
                         </div>
@@ -350,8 +350,8 @@ if (!file_exists($outcrop1)){
                         <div class="carousel-item active" ">
                         <figure class="cd-image-container">
                             <img-comparison-slider>
-                                <img slot="first" width="100%" src="<?php echo $petroppl1 ?>">
-                                <img slot="second" width="100%" src="<?php echo $petroxpl1 ?>">
+                                <img slot="first" loading="lazy" width="100%" src="<?php echo $petroppl1 ?>">
+                                <img slot="second" loading="lazy" width="100%" src="<?php echo $petroxpl1 ?>">
                                 <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                     <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                                 </svg>
@@ -383,8 +383,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -394,8 +394,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl4.'">
-                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl4.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -405,8 +405,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl5.'">
-                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl5.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -416,8 +416,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl6.'">
-                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl6.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -427,8 +427,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl7.'">
-                            <img slot="second" width="100%" src="'.$petroxpl7.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl7.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl7.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -438,8 +438,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl8.'">
-                            <img slot="second" width="100%" src="'.$petroxpl8.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl8.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl8.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -449,8 +449,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl9.'">
-                            <img slot="second" width="100%" src="'.$petroxpl9.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl9.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl9.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -460,8 +460,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl10.'">
-                            <img slot="second" width="100%" src="'.$petroxpl10.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl10.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl10.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -484,10 +484,10 @@ if (!file_exists($outcrop1)){
                     <figure class="cd-image-container">
                         <img-comparison-slider>
                         <figure>
-                            <img slot="first" width="100%" src="'.$petroppl2.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
                             <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
                             </figure>
-                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
                             <div><h1>iuhwerhuwehriuwheriuh</h1></div>
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
@@ -498,8 +498,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -509,8 +509,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl4.'">
-                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl4.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -520,8 +520,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl5.'">
-                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl5.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -531,8 +531,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl6.'">
-                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl6.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -542,8 +542,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl7.'">
-                            <img slot="second" width="100%" src="'.$petroxpl7.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl7.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl7.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -553,8 +553,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl8.'">
-                            <img slot="second" width="100%" src="'.$petroxpl8.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl8.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl8.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -564,8 +564,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl9.'">
-                            <img slot="second" width="100%" src="'.$petroxpl9.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl9.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl9.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -586,8 +586,8 @@ if (!file_exists($outcrop1)){
                     <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl2.'">
-                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -597,8 +597,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -608,8 +608,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl4.'">
-                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl4.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -619,8 +619,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl5.'">
-                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl5.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -630,8 +630,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl6.'">
-                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl6.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -641,8 +641,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl7.'">
-                            <img slot="second" width="100%" src="'.$petroxpl7.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl7.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl7.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -652,8 +652,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl8.'">
-                            <img slot="second" width="100%" src="'.$petroxpl8.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl8.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl8.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -675,8 +675,8 @@ if (!file_exists($outcrop1)){
                     <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl2 . '">
-                            <img slot="second" width="100%" src="' . $petroxpl2 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl2 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl2 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -686,8 +686,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl3 . '">
-                            <img slot="second" width="100%" src="' . $petroxpl3 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl3 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl3 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -697,8 +697,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl4 . '">
-                            <img slot="second" width="100%" src="' . $petroxpl4 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl4 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl4 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -708,8 +708,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl5 . '">
-                            <img slot="second" width="100%" src="' . $petroxpl5 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl5 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl5 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -719,8 +719,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl6 . '">
-                            <img slot="second" width="100%" src="' . $petroxpl6 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl6 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl6 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -730,8 +730,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl7 . '">
-                            <img slot="second" width="100%" src="' . $petroxpl7 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl7 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl7 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -754,8 +754,8 @@ if (!file_exists($outcrop1)){
                     <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl2.'">
-                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -765,8 +765,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -776,8 +776,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl4.'">
-                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl4.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -787,8 +787,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl5.'">
-                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl5.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -798,8 +798,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl6.'">
-                            <img slot="second" width="100%" src="'.$petroxpl6.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl6.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl6.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -818,8 +818,8 @@ if (!file_exists($outcrop1)){
                     <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl2.'">
-                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -829,8 +829,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -840,8 +840,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl4.'">
-                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl4.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -851,8 +851,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl5.'">
-                            <img slot="second" width="100%" src="'.$petroxpl5.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl5.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl5.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                         
@@ -868,8 +868,8 @@ if (!file_exists($outcrop1)){
                     <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl2.'">
-                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -879,8 +879,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -890,8 +890,8 @@ if (!file_exists($outcrop1)){
                 <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl4.'">
-                            <img slot="second" width="100%" src="'.$petroxpl4.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl4.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl4.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -911,8 +911,8 @@ if (!file_exists($outcrop1)){
                     <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl2.'">
-                            <img slot="second" width="100%" src="'.$petroxpl2.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
@@ -922,8 +922,8 @@ if (!file_exists($outcrop1)){
                  <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="'.$petroppl3.'">
-                            <img slot="second" width="100%" src="'.$petroxpl3.'">
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl3.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl3.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             
@@ -961,32 +961,32 @@ if (!file_exists($outcrop1)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop2.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop3.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop3.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop4.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop4.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop5.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop5.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop6.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop6.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
             </div>
@@ -1006,27 +1006,27 @@ if (!file_exists($outcrop1)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop2.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop3.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop3.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop4.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop4.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop5.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop5.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
             </div>
@@ -1047,22 +1047,22 @@ if (!file_exists($outcrop1)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop2.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop3.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop3.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop4.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop4.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
             </div>
@@ -1082,17 +1082,17 @@ if (!file_exists($outcrop1)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop2.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop3.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop3.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
             </div>
@@ -1113,12 +1113,12 @@ if (!file_exists($outcrop1)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop2.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
@@ -1137,7 +1137,7 @@ if (!file_exists($outcrop1)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
