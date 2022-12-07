@@ -15,40 +15,40 @@ $row = mysqli_fetch_array($result,MYSQLI_BOTH);
 
 
 $rock_file = 'docs/' .$row['name'] . '.pdf';
-$petroppl1 = 'img/' .$row['name']. '_001_PPL.avif';
-$petroxpl1 = 'img/' .$row['name']. '_001_XPL.avif';
-$petroppl2 = 'img/' .$row['name']. '_002_PPL.avif';
-$petroxpl2 = 'img/' .$row['name']. '_002_XPL.avif';
-$petroppl3 = 'img/' .$row['name']. '_003_PPL.avif';
-$petroxpl3 = 'img/' .$row['name']. '_003_XPL.avif';
-$petroppl4 = 'img/' .$row['name']. '_004_PPL.avif';
-$petroxpl4 = 'img/' .$row['name']. '_004_XPL.avif';
-$petroppl5 = 'img/' .$row['name']. '_005_PPL.avif';
-$petroxpl5 = 'img/' .$row['name']. '_005_XPL.avif';
-$petroppl6 = 'img/' .$row['name']. '_006_PPL.avif';
-$petroxpl6 = 'img/' .$row['name'].  '_006_XPL.avif';
-$petroppl7 = 'img/' .$row['name'].  '_007_PPL.avif';
-$petroxpl7 = 'img/' .$row['name'].  '_007_XPL.avif';
-$petroppl8 = 'img/' .$row['name'].  '_008_PPL.avif';
-$petroxpl8 = 'img/' .$row['name'].  '_008_XPL.avif';
-$petroppl9 = 'img/' .$row['name'].  '_009_PPL.avif';
-$petroxpl9 = 'img/' .$row['name'].  '_009_XPL.avif';
-$petroppl10 = 'img/' .$row['name']. '_0010_PPL.avif';
-$petroxpl10 = 'img/' .$row['name']. '_0010_XPL.avif';
+$petroppl1 = 'img/' .$row['name']. '_001_PPL.jpg';
+$petroxpl1 = 'img/' .$row['name']. '_001_XPL.jpg';
+$petroppl2 = 'img/' .$row['name']. '_002_PPL.jpg';
+$petroxpl2 = 'img/' .$row['name']. '_002_XPL.jpg';
+$petroppl3 = 'img/' .$row['name']. '_003_PPL.jpg';
+$petroxpl3 = 'img/' .$row['name']. '_003_XPL.jpg';
+$petroppl4 = 'img/' .$row['name']. '_004_PPL.jpg';
+$petroxpl4 = 'img/' .$row['name']. '_004_XPL.jpg';
+$petroppl5 = 'img/' .$row['name']. '_005_PPL.jpg';
+$petroxpl5 = 'img/' .$row['name']. '_005_XPL.jpg';
+$petroppl6 = 'img/' .$row['name']. '_006_PPL.jpg';
+$petroxpl6 = 'img/' .$row['name'].  '_006_XPL.jpg';
+$petroppl7 = 'img/' .$row['name'].  '_007_PPL.jpg';
+$petroxpl7 = 'img/' .$row['name'].  '_007_XPL.jpg';
+$petroppl8 = 'img/' .$row['name'].  '_008_PPL.jpg';
+$petroxpl8 = 'img/' .$row['name'].  '_008_XPL.jpg';
+$petroppl9 = 'img/' .$row['name'].  '_009_PPL.jpg';
+$petroxpl9 = 'img/' .$row['name'].  '_009_XPL.jpg';
+$petroppl10 = 'img/' .$row['name']. '_0010_PPL.jpg';
+$petroxpl10 = 'img/' .$row['name']. '_0010_XPL.jpg';
 
-$appearance1 = 'img/' .$row['name']. '_001.avif';
-$appearance2 = 'img/' .$row['name']. '_002.avif';
-$appearance3 = 'img/' .$row['name']. '_003.avif';
-$appearance4 = 'img/' .$row['name']. '_004.avif';
-$appearance5 = 'img/' .$row['name']. '_005.avif';
-$appearance6 = 'img/' .$row['name']. '_006.avif';
+$appearance1 = 'img/' .$row['name']. '_001.jpg';
+$appearance2 = 'img/' .$row['name']. '_002.jpg';
+$appearance3 = 'img/' .$row['name']. '_003.jpg';
+$appearance4 = 'img/' .$row['name']. '_004.jpg';
+$appearance5 = 'img/' .$row['name']. '_005.jpg';
+$appearance6 = 'img/' .$row['name']. '_006.jpg';
 
-$outcrop1 = 'img/' .$row['name']. '_001_O.avif';
-$outcrop2 = 'img/' .$row['name']. '_002_O.avif';
-$outcrop3 = 'img/' .$row['name']. '_003_O.avif';
-$outcrop4 = 'img/' .$row['name']. '_004_O.avif';
-$outcrop5 = 'img/' .$row['name']. '_005_O.avif';
-$outcrop6 = 'img/' .$row['name']. '_006_O.avif';
+$outcrop1 = 'img/' .$row['name']. '_001_O.jpg';
+$outcrop2 = 'img/' .$row['name']. '_002_O.jpg';
+$outcrop3 = 'img/' .$row['name']. '_003_O.jpg';
+$outcrop4 = 'img/' .$row['name']. '_004_O.jpg';
+$outcrop5 = 'img/' .$row['name']. '_005_O.jpg';
+$outcrop6 = 'img/' .$row['name']. '_006_O.jpg';
 if (!file_exists($petroxpl1) && (!file_exists($petroppl1))){
     $petroppl1 = 'img/ferret.png';
     $petroxpl1 = 'img/ferret2.jpg';
@@ -360,7 +360,7 @@ if (!file_exists($outcrop1)){
 
                         <?php
 
-                        if (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8) && file_exists($petroppl9) && file_exists($petroppl9) && file_exists($petroppl10)) {
+                        if (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8) && file_exists($petroppl9) && file_exists($petroppl10)) {
 
                             echo '
                             
