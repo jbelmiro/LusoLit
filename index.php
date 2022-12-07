@@ -37,13 +37,14 @@
 	});
 	</script>
 </head>
-<body>
-<div class="container-fluid">       
+<body >
+<div class="pt-lg-5">
+<div class="container-fluid">
 <div class="content-wrapper">
 	<div class="container">
         <div class="row mb-3">
-            <div class="col-md-3 themed-grid-col "><img src="img/lusolit_logo%20smol.png" class="img-thumbnail" /></div>
-            <div class="col-md-8 themed-grid-col align-self-end"><h1>Luso Lit</h1></div>
+            <div class="col-md-3 themed-grid-col "><img src="img/lusolit_logo%20smol.png" width="175" height="125" /></div>
+            <div class="col-md-8 themed-grid-col align-self-end" style="color:#A03232"><h1>Luso Lit</h1></div>
         </div>
 		<div class="row margin-top:5px">
 		<div class="col-sm-12 ">

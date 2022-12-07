@@ -20,7 +20,7 @@ if(count($_POST)>0) {
 <body>
 <table>
     <tr>
-        <td>Name</td>
+        <td class="text-danger">Name</td>
         <td>Email</td>
         <td>Roll No</td>
 

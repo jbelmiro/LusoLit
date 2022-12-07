@@ -115,11 +115,13 @@ if (!file_exists($outcrop1)){
 
 
 
-<div class="mt-4">
+<div class="pt-lg-5">
     <body style="padding-bottom: 75px">
+
     <div class="container-fluid">
         <div class="content-wrapper">
-            <div class="container">
+
+            <div class="container ">
                 <p class="display-3">Luso Lit
                 <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description"> Sample <?php echo $row['name'] ?></p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px ">Collection: <?php echo $row['store_name'] ?></p>
