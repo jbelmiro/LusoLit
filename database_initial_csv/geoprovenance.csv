@@ -1,58 +1,58 @@
 id,geosamples_id,name,description,state
-1,1,SP6_CSV,"The outcrop is in primary state, located on the cliffs next to the Cabo de S. Vicent fort. The access is of moderate difficulty. The chert is bedded and frequent. Due to the proximity to the cliff, the exposed bedded chert is altered",Primary
-2,2,SP7_CSV,,Primary
-3,3,SP8_PdA,,Primary
-4,4,SP9_PdA,,Primary
-5,5,SP10_PdA,,Primary
-6,6,SP47_CdC,,
-7,7,RT82_PBLX,,Isolated
-8,8,SP3_CSV,,Primary
-9,9,SP11_PtA,,Isolated
-10,10,SP13_PBLX,,Primary
-11,11,SP14_PBLX,,Primary
-12,12,SP15_PBLX,,Primary
-13,13,SP16_PBLX,,Primary
-14,14,SP17_PBLX,,Primary
-15,15,SP18_PBLX,,Primary
-16,16,SP19_PBLX,,Primary
-17,17,SP20_BLS,,Secondary
-18,18,SP21_BLS,,Primary
-19,19,SP23_BLN,,Secondary
-20,20,SP24_CSV,,Primary
-21,21,SP27_CSV,,Primary
-22,22,SP28_ASP,,Primary
-23,23,SP29_ASP,,Secondary
-24,24,SP30_FZF,,Primary
-25,25,SP31_FZF,,Secondary
-26,26,SP32_FZF,,Primary
-27,27,SP33_FZF,,Primary
-28,28,SP34_PdA_1,,Primary
-29,29,SP34_PdA_2,,Primary
-30,30,SP35_BLX,,Isolated
-31,31,SP36_PtA,,Isolated
-32,32,SP37_PtA,,Secondary
-33,33,SP39_AND,,Secondary
-34,34,SP40_FER_1,,Primary
-35,35,SP40_FER_2,,Primary
-36,36,SP41_FER,,Secondary
-37,37,SP48_CdC,,Secondary
-38,38,SP49_CdC,,Secondary
-39,39,SP50_CdC,,Primary
-40,40,SP52_CdC,,Secondary
-41,41,SP53_GUI,,Secondary
-42,42,SP54_GUI,,Isolated
-43,43,SP55_CAL,,Secondary
-44,44,SP56_JOR,,Secondary
-45,45,SP57_JOR,,Primary
-46,46,SP58_JOR,,Primary
-47,47,SP59_JOR,,Primary
-48,48,SP61_PER,,Secondary
-49,49,SP62_OLV_1,,Secondary
-50,50,SP62_OLV_2,,Secondary
-51,51,SP63_OLV,,Primary
-52,52,SP64_OLV,,Isolated
-53,53,SP65_MALH,,Primary
-54,54,SP66_MALH,,Primary
-55,55,SP67_DESCAM,,Secondary
-56,56,SP68_PEDR,,Secondary
+1,1,SP6_CSV,"The outcrop is in primary state, located on the cliffs next to the Cabo de S. Vicent fort. The access is of moderate difficulty. The chert is bedded and frequent. Due to the proximity to the cliff, the exposed bedded chert is altered.",Primary
+2,2,SP7_CSV,"The chert can be found in sections within the cliff, from the top to the bottom (although the bottom cherts are not accessible). The nodules and beds are abundant, and chert chunks can also be found near the outcrop.",Primary
+3,3,SP8_PdA,"The chert can be found embedded in the parent rock. The chert outcrops near the edge of the cliff, at the top. The nodules are oval to irregular, between 5 to 20cm. The nodules have thick cortex but are difficult to remove from the parent rock.",Primary
+4,4,SP9_PdA,"The chert can be found embedded in the parent rock. The chert outcrops near the edge of the cliff, at the top. The nodules are oval to irregular, between 5 to 20cm. The nodules show different degrees of dolomitization. Removing the nodules is difficult due to the chert being brittle.",Primary
+5,5,SP10_PdA,"The chert can be found embedded in the parent rock. The chert outcrops near the edge of the cliff, at the top. The nodules are oval to irregular, between 5 to 10cm. The nodules have thick cortex but are difficult to remove from the parent rock.",Primary
+6,6,SP47_CdC,"The outcrop is located at the bottom of a gentle slope, where the vegetation is not as dense. The nodules are found in parent rock which outcrops from the floor, although the nodules here are rare. ",Primary
+7,7,RT82_PBLX,-,Isolated
+8,8,SP3_CSV,"The chert can be found in sections within the cliff, from the top to the bottom (although the bottom cherts are not accessible). The nodules and beds are sporadic, and chert chunks can also be found near the outcrop.",Primary
+9,9,SP11_PtA,-,Isolated
+10,10,SP13_PBLX,"The cherts are embedded in the cliffs, appearing as nodules of varying shapes and sizes, but also bedded. Whenever bedded, the chert seems to be more brittle and fractured. The nodules are more abundant than the bedded cherts. Despite these differences, these cherts are similar.",Primary
+11,11,SP14_PBLX,"The cherts are embedded in the cliffs, appearing as nodules of varying shapes and sizes, but also bedded. Whenever bedded, the chert seems to be more brittle and fractured. The nodules are more abundant than the bedded cherts. Despite these differences, these cherts are similar.",Primary
+12,12,SP15_PBLX,"The cherts are embedded in the cliffs, appearing as nodules of varying shapes and sizes, but also bedded. Whenever bedded, the chert seems to be more brittle and fractured. The nodules are more abundant than the bedded cherts. Despite these differences, these cherts are similar.",Primary
+13,13,SP16_PBLX,"The chert nodules are oval and small, embedded in the cliff walls. Albeit abundant, many of the nodules show different degrees of dolomitization.",Primary
+14,14,SP17_PBLX,"The chert nodules are oval and large, embedded in the cliff walls. Albeit abundant, many of the nodules show different degrees of dolomitization.",Primary
+15,15,SP18_PBLX,"Chert can be found embedded in the cliffs, as nodules or as bedded cherts. They are abundant and available at different heights but are difficult to remove due to being brittle.",Primary
+16,16,SP19_PBLX,"The chert nodules can be found embedded in the parent rock, at the top of the cliff, in a secluded area from the rest of the Belixe outcrops. The chert nodules are oval or irregular, and can be as wide as 20 cm. Unlike the other Belixe outcrops, the accessibility is moderate.",Primary
+17,17,SP20_BLS,"The cherts are angular and fractured, often altered. They are the result of the natural transportation of broken cherts from the nearby dismantling outcrop.",Secondary
+18,18,SP21_BLS,"The nodules are embedded in the parent rock. They are oval, between 3 to 8cm, and with thick cortexes. The parent rocks are boulders loosely outcropping in a field near the cliffs. The outcrop seems to be dismantling. Due to this, the floor is filled with abundant broken chunks of chert, smaller than the nodules within the parent rock.",Primary
+19,19,SP23_BLN,"Chert can be found in an agriculture field. No signs of parent rock can be found and some of the chert samples may be archaeological artifacts. The outcrop is close to an archaeological site, so the samples may be a mix of geological and archaeological cherts.",Secondary
+20,20,SP24_CSV,"The chert nodules are around 5cm and oval, embedded in what seems to be cemented sediment or conglomerates. ",Primary
+21,21,SP27_CSV,"The chert nodules can be found embedded in the parent rock which outcrops on a flat field, close to the cliffs. The nodules are rare in this area and difficult to remove, due to the hardness of the parent rock.",Primary
+22,22,SP28_ASP,"The nodules can be found embedded in the parent rock, along the slope of the cliff. The parent rock outcrops along the cliff, with moderate access. The nodules are sporadic and brittle, around 5cm. Smaller chunks can be found on the floor, although smaller and altered.",Primary
+23,23,SP29_ASP,"Chert can be found in chunks down a gentle slope a short distance from the cliffs. These are abundant, albeit altered and small.",Secondary
+24,24,SP30_FZF,"The chert is rare but can be found in parent rock outcropping from the floor. This section is located above the cliff, at the top, where the chert is rare instead of abundant, but access is easy. The nodules are irregular, as large as 15cm in width, but brittle and filled with fractures. This area of the outcrop might be in dismantlement.",Primary
+25,25,SP31_FZF,"The outcrop is located on the cliff with easy access. The nodules are abundant and easily visible, above where the outcrops are. Loose chunks of chert can be found around where the vegetation traps them or where the inclination is not as steep.",Secondary
+26,26,SP32_FZF,"The outcrop is located on the cliff with moderate access. The nodules are abundant and easily visible. These are either oval or irregular, from 4 to 8cm in width. The outcrops is in good state since it seems to be nearly undisturbed. Rare loose chunks of chert can be found around, probably due to the inclination of the cliff. The parent rock is hard, making the removal of the chert nodules difficult.",Primary
+27,27,SP33_FZF,"The outcrop is located on the cliff with moderate access. The nodules are abundant and easily visible. These are either oval or irregular, from 4 to 8cm in width. The outcrops is in good state since it seems to be nearly undisturbed. Rare loose chunks of chert can be found around, probably due to the inclination of the cliff. The parent rock is hard, making the removal of the chert nodules difficult.",Primary
+28,28,SP34_PdA_a,"The chert can be found embedded in the parent rock or in broken pieces on the floor. The small boulders are found along a sand path at the top of the cliff. The outcrop seems to be in dismantlement, with the chert breaking from the parent rock. The nodules are oval, between 4 to 8cm, with cortex and easy to remove from the parent rock.",Primary
+29,29,SP34_PdA_b,"The chert can be found embedded in the parent rock or in broken pieces on the floor. The small boulders are found along a sand path at the top of the cliff. The outcrop seems to be in dismantlement, with the chert breaking from the parent rock. The nodules are oval, between 4 to 8cm, with cortex and easy to remove from the parent rock.",Primary
+30,30,SP35_BLX,-,Isolated
+31,31,SP36_PtA,-,Isolated
+32,32,SP37_PtA,"The chert can be found in small chunks, without parent rock, and fully patinated. They are scattered on the floor at the top of the cliff by the sea. The primary outcrop seems to outcrop on the sides of the cliff, where the access is nearly impossible.",Secondary
+33,33,SP39_AND,"The chert can be found at the top of the cliff, by the beach. No signs of the parent rock are present and the chert is present as small, angular chunks and highly patinated.",Secondary
+34,34,SP40_FER_a,"The outcrop seems to be destroyed and dismantled, possibly due to construction works in the area. The chert can be found on the floor, either in small pieces or embedded in fragments of parent rock. The state of the outcrop is bad and it may be considered sub-primary.",Primary
+35,35,SP40_FER_b,"The outcrop seems to be destroyed and dismantled, possibly due to construction works in the area. The chert can be found on the floor, either in small pieces or embedded in fragments of parent rock. The state of the outcrop is bad and it may be considered sub-primary.",Primary
+36,36,SP41_FER,The chert can be found on an abandoned field by the road. It is fractured into smaller pieces without trace of the parent rock. The proximity of the secondary outcrop to an archaeological site may hamper the attribution of chert source.,Secondary
+37,37,SP48_CdC,The chert is rare in this area and appears as small broken pieces. The alteration on the chert is concurrent with the transport possibly from a slope through a highly vegetated area.,Secondary
+38,38,SP49_CdC,The chert is rare in this area and appears as small broken pieces. The alteration on the chert is concurrent with the transport possibly from a slope through a highly vegetated area.,Secondary
+39,39,SP50_CdC,"The outcrop is in dismantlement and located in an unused field. The nodules can be found still embedded in the parent rock, while the parent rock either is broken off on the floor or outcropping. The nodules are oval and small (max. 5cm), with a thick cortex and easy to remove from the parent rock.",Primary
+40,40,SP52_CdC,"The chert nodules can be found at the base of a slope, embedded in a displaced parent rock. This hints at a possible outcrop dismantlement with the displacement of rock chunks down the slope. The nodules are irregular and blocky, between 5 to 10cm width.",Secondary
+41,41,SP53_GUI,"The cherts can be found at the bottom of a slope, although very altered which seems to show these were transported possibly from the top of the hill by water.",Secondary
+42,42,SP54_GUI,Isolated find in a slope. There was no evidence of other similar nodules or rocks with embedded nodules. The slope is inclined but without signs of chert above.,Isolated
+43,43,SP55_CAL,"The chert nodules can be found in small boulders scattered in an abandoned field, possibly previously an agriculture field. Either the site was previously an outcrop now completely dismantled, or the boulders have been displaced. The chert nodules are rare and small.",Secondary
+44,44,SP56_JOR,"The cherts can be found in smaller boulders scattered in an abandoned field, sometimes as loose, small chunks in the dirt. The parent rock is similar to the other JOR samples, however, these boulders are clearly broken and moved from their original location. Because of this, the chert is also frequently very altered.",Secondary
+45,45,SP57_JOR,"Small chert nodules (2-5cm) can be found in huge boulders, on an abandoned field next to recently built houses. The outcrop seems to be in dismantlement. The nodules are very abundant but difficult to remove from the parent rock without shattering into small pieces.",Primary
+46,46,SP58_JOR,"The cherts can be found in large boulders in an unused field by recently constructed houses. The outcrop is in dismantlement, although some boulders seem to be in situ, half showing from the earth. The nodules are punctual, irregular, and small with widths of ~5cm.",Primary
+47,47,SP59_JOR,"The outcrop is located on the bed of a dry river. The nodules are abundant and can be found on the outcrops from the top to the bottom of the sides of the river, some with moderate access. The nodules are irregular and small, with the largest nodules identified being 5cm. Some boulders are displaced and moved down by gravity, while some are still in situ.",Primary
+48,48,SP61_PER,"The chert nodules can be found in small boulders, displaced from their original locations, and pilled in an old rural wall. The nodules within the boulders are homogenous and punctual, with irregular shapes and with widths from 2 to 5cm.",Secondary
+49,49,SP62_OLV_a,"The chert samples can be found in a dry stream. They seem to be the result of slope deposits from higher areas which are covered by dense vegetation and cannot be accessed. The cherts are abundant and variable, extremely patinated on the outside. The cherts are fractured and can be small, with the largest identified chunk being 10cm wide.",Secondary
+50,50,SP62_OLV_b,"The chert samples can be found in a dry stream. They seem to be the result of slope deposits from higher areas which are covered by dense vegetation and cannot be accessed. The cherts are abundant and variable, extremely patinated on the outside. The cherts are fractured and can be small, with the largest identified chunk being 10cm wide.",Secondary
+51,51,SP63_OLV,"The chert nodules can be found in large outcrops by a road, in primary state. Some nodules are altered and brittle depending on the degree of exposure. The outcrop is in dismantlement. The nodules are punctual, oval, and with widths ranging from 2 to 15cm. ",Primary
+52,52,SP64_OLV,-,Isolated
+53,53,SP65_MALH,"The nodules can be found in parent rock chunks, displaced from the main parent rock but near them. The outcrop is in dismantlement, within unoccupied and uncultivated terrains. The nodules are punctual, irregular and around 5cm.",Primary
+54,54,SP66_MALH,"The nodules can be found in parent rock chunks, displaced from the main parent rock but near them. The outcrop is in dismantlement, within unoccupied and uncultivated terrains. The nodules are punctual, irregular and around 5cm.",Primary
+55,55,SP67_DESCAM,"The nodules can be found in blocks of parent rock, scattered in a terrain next to a cultivation field, on a slope. The outcrop has been destroyed and the original location of the chert nodules is difficult to ascertain. The nodules are oval to irregular, between 5cm to 10cm.",Secondary
+56,56,SP68_PEDR,"The chert nodules are embedded in lost chunks of parent rock in a terrain for rock exploration. Because of this, the frequency of chert nodules is rare. The visibility is reasonable, the accessibility is easy, and the outcrop preservation is bad.",Secondary
 57,57,SP69_MAR,,Secondary
