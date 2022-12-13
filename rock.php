@@ -1560,17 +1560,17 @@ elseif (file_exists($appearance5)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
-</div>
+
 ';}elseif(file_exists($outcrop5)){ echo '
         <div id="carouselControlsOutcrop" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
             <div class="carousel-inner">
@@ -1600,17 +1600,17 @@ elseif (file_exists($appearance5)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
-</div>
+
 ';
 }elseif(file_exists($outcrop4)){ echo '
         <div id="carouselControlsOutcrop" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
@@ -1635,18 +1635,18 @@ elseif (file_exists($appearance5)){
                         <img src="'.$outcrop4.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+          </div>
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
-</div>
+
 ';}elseif(file_exists($outcrop3)){ echo '
         <div id="carouselControlsOutcrop" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
             <div class="carousel-inner">
@@ -1666,17 +1666,17 @@ elseif (file_exists($appearance5)){
                     </figure>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
-</div>
+
     
 ';}elseif(file_exists($outcrop2)){ echo '
         <div id="carouselControlsOutcrop" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
@@ -1691,17 +1691,17 @@ elseif (file_exists($appearance5)){
                         <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
-</div>    
+  
 ';}elseif(file_exists($outcrop1)){ echo '
         <div id="carouselControlsOutcrop" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
             <div class="carousel-inner">
@@ -1710,17 +1710,16 @@ elseif (file_exists($appearance5)){
                         <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
-</div>
 ';}
 ?>
 <p class="h3 mt-5" id="location">Location</p>
