@@ -2,18 +2,21 @@
 
 <?php
 
-include("config.php");
-include ('functions.php');
-$rock_id = $_GET['id'];
+// Code written by Jack Acres (2022)
 
+include("config.php");
+
+//This passes the geosamples ID to the URL so that the below data is correct and only data pertaining to the sample is grabbed.
+$rock_id = $_GET['id'];
+//SQL query to get needed data from database
 $query = 'SELECT geosamples.name, storage.store_name, geosamples.year, geosamples.researcher, geosamples.latitude, geosamples.longitude, macroscopy.color, macroscopy.fabric, macroscopy.cortex, macroscopy.quality, outcrop.age, outcrop.reference, geoprovenance.description, geoprovenance.state, petrography.texturalclassification, petrography.composition, petrography.othertextural FROM geosamples INNER JOIN storage ON geosamples.storage_id = storage.storage_id INNER JOIN thinsection ON geosamples.thinsection_id = thinsection.thin_id INNER JOIN outcrop on geosamples.outcrop_id = outcrop.id INNER JOIN geoprovenance on geoprovenance.geosamples_id = geosamples.id INNER JOIN macroscopy on macroscopy.geosamples_id = geosamples.id INNER JOIN petrography on petrography.thinsection_id = thinsection.thin_id WHERE geosamples.id = ' . $rock_id;
 
 $result = mysqli_query($conn, $query) ;
-
+//This turns the data from the database into an array for easy usage below.
 $row = mysqli_fetch_array($result,MYSQLI_BOTH);
 
 
-
+//Set variables for all the parts of the page. This allows this one template to be used to create all pages.
 $rock_file = 'docs/' .$row['name'] . '.pdf';
 $petroppl1 = 'img/' .$row['name']. '_001_PPL.jpg';
 $petroxpl1 = 'img/' .$row['name']. '_001_XPL.jpg';
@@ -218,9 +221,9 @@ if (!file_exists($outcrop1)){
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>';
-}
-elseif (file_exists($appearance10)){ echo '
-<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+    }
+    elseif (file_exists($appearance10)){ echo '
+        <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">
@@ -291,7 +294,7 @@ elseif (file_exists($appearance10)){ echo '
                 </div>';
                 }
                         elseif (file_exists($appearance9)){ echo '
-<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">
@@ -357,7 +360,7 @@ elseif (file_exists($appearance10)){ echo '
                         }
 
                         elseif (file_exists($appearance8)){ echo '
-<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">
@@ -417,7 +420,7 @@ elseif (file_exists($appearance10)){ echo '
                         }
 
                         elseif (file_exists($appearance7)){ echo '
-<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">

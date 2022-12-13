@@ -1,7 +1,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <?php 
 	include("config.php");
-?>
+// Code written by Jack Acres (2022)
+    ?>
 <html lang="">
 <head>
 	<title>Luso Lit</title>
@@ -9,6 +11,7 @@
     <script src="js\jquery-3.6.0.js"></script>
 	<link href="css\bootstrap.css" rel="stylesheet">
 	<script>
+        <!-- This is AJAX/jQuery code which fetches the data returned from SQL via searchresult.php. It then allows the data to be added to a realtime searchable table -->
 	$(document).ready(function(){
 		load_data();
 		function load_data(query)
@@ -35,9 +38,12 @@
 		}
 		});
 	});
+
 	</script>
 </head>
 <body >
+
+<!-- Below constructs the search box for the table-->
 <div class="pt-lg-5">
 <div class="container-fluid">
 <div class="content-wrapper">
