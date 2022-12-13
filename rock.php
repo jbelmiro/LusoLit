@@ -42,6 +42,11 @@ $appearance3 = 'img/' .$row['name']. '_003.jpg';
 $appearance4 = 'img/' .$row['name']. '_004.jpg';
 $appearance5 = 'img/' .$row['name']. '_005.jpg';
 $appearance6 = 'img/' .$row['name']. '_006.jpg';
+$appearance7 = 'img/' .$row['name']. '_007.jpg';
+$appearance8 = 'img/' .$row['name']. '_008.jpg';
+$appearance9 = 'img/' .$row['name']. '_009.jpg';
+$appearance10 = 'img/' .$row['name']. '_010.jpg';
+$appearance11 = 'img/' .$row['name']. '_011.jpg';
 
 $outcrop1 = 'img/' .$row['name']. '_001_O.jpg';
 $outcrop2 = 'img/' .$row['name']. '_002_O.jpg';
@@ -49,14 +54,10 @@ $outcrop3 = 'img/' .$row['name']. '_003_O.jpg';
 $outcrop4 = 'img/' .$row['name']. '_004_O.jpg';
 $outcrop5 = 'img/' .$row['name']. '_005_O.jpg';
 $outcrop6 = 'img/' .$row['name']. '_006_O.jpg';
-if (!file_exists($petroxpl1) && (!file_exists($petroppl1))){
-    $petroppl1 = 'img/ferret.png';
-    $petroxpl1 = 'img/ferret2.jpg';
-};
-if (!file_exists($appearance1)){
-    $appearance1 = 'img/quokka.jpg';
 
-};
+
+
+
 if (!file_exists($outcrop1)){
     $outcrop1 = 'img/sugarglider.jpg';
 
@@ -140,9 +141,337 @@ if (!file_exists($outcrop1)){
 
 
 
-                        <?php if(file_exists($appearance6)){
+                        <?php if(file_exists($appearance11)){
                             echo '
                         <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance6.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance7.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                   
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance8.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                   
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance9.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance10.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance11.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>';
+}
+elseif (file_exists($appearance10)){ echo '
+<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance6.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance7.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                   
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance8.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                   
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance9.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+               
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance10.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>';
+                }
+                        elseif (file_exists($appearance9)){ echo '
+<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance6.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance7.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance8.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance9.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>';
+                        }
+
+                        elseif (file_exists($appearance8)){ echo '
+<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance6.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+               
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance7.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                 
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance8.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>';
+                        }
+
+                        elseif (file_exists($appearance7)){ echo '
+<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance2.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance3.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance4.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance5.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                  
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance6.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+               
+                    <div class="carousel-item">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance7.'" loading="lazy" class="d-block w-100" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>';
+                        }
+
+                        elseif (file_exists($appearance6)){ echo '
+<div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">
@@ -187,7 +516,9 @@ if (!file_exists($outcrop1)){
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>';
-} elseif (file_exists($appearance5)){
+                        }
+
+elseif (file_exists($appearance5)){
                             echo '
                             <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
                     <div class="carousel-inner">
@@ -319,25 +650,6 @@ if (!file_exists($outcrop1)){
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                ';}elseif (file_exists($appearance1)){
-                            echo '
-                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <figure class="cd-image-container">
-                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
-                            </figure>
-                            </div>
-                        </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
                 ';}
 
 ?>
@@ -347,24 +659,26 @@ if (!file_exists($outcrop1)){
                 <p class="h6 mb-3" style=" position: relative;right:-30px">Composition: <?php echo $row['composition'] ?></p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px">Other textural characteristics: <?php echo $row['othertextural'] ?></p>
 
-                <div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" ">
-                        <figure class="cd-image-container">
-                            <img-comparison-slider>
-                                <img slot="first" loading="lazy" width="100%" src="<?php echo $petroppl1 ?>">
-                                <img slot="second" loading="lazy" width="100%" src="<?php echo $petroxpl1 ?>">
-                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
-                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
-                                </svg>
-                            </img-comparison-slider>
-                        </figure>
+
 
                         <?php
 
                         if (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8) && file_exists($petroppl9) && file_exists($petroppl10)) {
 
                             echo '
+                            
+                            <div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
                             
                             <div class="carousel-caption d-none d-md-block">
                         
@@ -470,7 +784,16 @@ if (!file_exists($outcrop1)){
                         </img-comparison-slider>
                     </figure>
                 </div>
-                
+                        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                             
                             
                             ';
@@ -478,6 +801,19 @@ if (!file_exists($outcrop1)){
                         {
 
                             echo '
+                            
+                            <div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
                             
                             <div class="carousel-caption d-none d-md-block">
                         </div>
@@ -574,12 +910,36 @@ if (!file_exists($outcrop1)){
                         </img-comparison-slider>
                     </figure>
                 </div>
+                
+                        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                 ';
 
                 } elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7) && file_exists($petroppl8))
                         {
 
                             echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
 
                                 <div class="carousel-caption d-none d-md-block">
                             
@@ -663,12 +1023,34 @@ if (!file_exists($outcrop1)){
                     </figure>
                 </div>
                 
-                            
+                                    </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                             
                             ';
                         } elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5) && file_exists($petroppl6) && file_exists($petroppl7)) {
 
                             echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
 
                                 <div class="carousel-caption d-none d-md-block">
                             
@@ -741,6 +1123,16 @@ if (!file_exists($outcrop1)){
                     </figure>
                 </div>
                 
+                        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                             
                             
                             ';
@@ -748,6 +1140,19 @@ if (!file_exists($outcrop1)){
                         {
 
                         echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
 
                                 <div class="carousel-caption d-none d-md-block">
                             
@@ -808,10 +1213,34 @@ if (!file_exists($outcrop1)){
                         </img-comparison-slider>
                     </figure>
                 </div>
+                
+                        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                             ';}elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4) && file_exists($petroppl5))
                         {
 
                         echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
 
                                 <div class="carousel-caption d-none d-md-block">
                             
@@ -857,11 +1286,34 @@ if (!file_exists($outcrop1)){
                             <img slot="second" loading="lazy" width="100%" src="'.$petroxpl5.'">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                         
                             ';} elseif (file_exists($petroppl2) && file_exists($petroppl3) && file_exists($petroppl4))
                         {
 
                         echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
 
                                 <div class="carousel-caption d-none d-md-block">
                             
@@ -897,6 +1349,16 @@ if (!file_exists($outcrop1)){
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
+                                    </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
                         
                 
                             
@@ -905,6 +1367,19 @@ if (!file_exists($outcrop1)){
                         {
 
                         echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
 
                                 <div class="carousel-caption d-none d-md-block">
                             
@@ -929,13 +1404,7 @@ if (!file_exists($outcrop1)){
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             
-                
-                            
-                           
-                            ';}
-                        ?>
-
-                    </div>
+                                    </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -945,6 +1414,94 @@ if (!file_exists($outcrop1)){
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+                
+                            
+                           
+                            ';}elseif (file_exists($petroppl2))
+                        {
+
+                            echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item" ">
+                    <figure class="cd-image-container">
+                        <img-comparison-slider>
+                            <img slot="first" loading="lazy" width="100%" src="'.$petroppl2.'">
+                            <img slot="second" loading="lazy" width="100%" src="'.$petroxpl2.'">
+                            <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                            </svg>
+                        </img-comparison-slider>
+                    </figure>
+                </div>
+                 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+                
+                            
+                           
+                            ';}elseif (file_exists($petroppl1))
+                        {
+
+                            echo '
+
+<div id="carouselIndicator2" class="carousel carousel-dark slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" ">
+                        <figure class="cd-image-container">
+                            <img-comparison-slider>
+                                <img slot="first" loading="lazy" width="100%" src="'.$petroppl1.'">
+                                <img slot="second" loading="lazy" width="100%" src="'.$petroxpl1.'">
+                                <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </img-comparison-slider>
+                        </figure>
+
+                                <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+                
+                            
+                           
+                            ';}
+                        ?>
+
+
 
 
 
