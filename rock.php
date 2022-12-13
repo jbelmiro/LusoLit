@@ -661,6 +661,25 @@ elseif (file_exists($appearance5)){
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                ';}elseif (file_exists($appearance1)){
+                            echo '
+                            <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="cd-image-container">
+                            <img src="'.$appearance1.'" class="d-block w-100" alt="...">
+                            </figure>
+                            </div>
+                        </div>
+                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
                 ';}
 
 ?>
