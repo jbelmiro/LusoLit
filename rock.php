@@ -220,11 +220,11 @@ if (!file_exists($outcrop1)){
                             </figure>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -291,11 +291,11 @@ if (!file_exists($outcrop1)){
                             </figure>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -356,11 +356,11 @@ if (!file_exists($outcrop1)){
                             </figure>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -416,11 +416,11 @@ if (!file_exists($outcrop1)){
                             </figure>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -470,11 +470,11 @@ if (!file_exists($outcrop1)){
                             </figure>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -518,11 +518,11 @@ if (!file_exists($outcrop1)){
                             </figure>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -563,11 +563,11 @@ elseif (file_exists($appearance5)){
                        
                         </div>
                         </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -599,11 +599,11 @@ elseif (file_exists($appearance5)){
                             </figure>
                         </div>
                         </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -628,11 +628,11 @@ elseif (file_exists($appearance5)){
                             </figure>
                         </div>
                         </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -652,11 +652,11 @@ elseif (file_exists($appearance5)){
                             </figure>
                             </div>
                         </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -671,11 +671,11 @@ elseif (file_exists($appearance5)){
                             </figure>
                             </div>
                         </div>
-                    <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -815,11 +815,11 @@ elseif (file_exists($appearance5)){
                     </figure>
                 </div>
                         </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -942,11 +942,11 @@ elseif (file_exists($appearance5)){
                 </div>
                 
                         </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1054,11 +1054,11 @@ elseif (file_exists($appearance5)){
                 </div>
                 
                                     </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1154,11 +1154,11 @@ elseif (file_exists($appearance5)){
                 </div>
                 
                         </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1245,11 +1245,11 @@ elseif (file_exists($appearance5)){
                 </div>
                 
                         </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"   type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1317,7 +1317,7 @@ elseif (file_exists($appearance5)){
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                                         </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
@@ -1380,11 +1380,11 @@ elseif (file_exists($appearance5)){
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
                                     </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1435,11 +1435,11 @@ elseif (file_exists($appearance5)){
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             
                                     </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1481,11 +1481,11 @@ elseif (file_exists($appearance5)){
                     </figure>
                 </div>
                  
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1516,11 +1516,11 @@ elseif (file_exists($appearance5)){
                         </div>
                     </div>
                  
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselIndicator2" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1655,11 +1655,11 @@ elseif (file_exists($appearance5)){
                     </figure>
                 </div>
           </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev"  type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1671,27 +1671,27 @@ elseif (file_exists($appearance5)){
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop1.'" loading="lazy" class="d-block" alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop2.'" loading="lazy" class="d-block " alt="...">
                     </figure>
                 </div>
                 <div class="carousel-item">
                     <figure class="cd-image-container">
-                        <img src="'.$outcrop3.'" loading="lazy" class="d-block w-100" alt="...">
+                        <img src="'.$outcrop3.'" loading="lazy" class="d-block " alt="...">
                     </figure>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+               
             </button>
         </div>
 
@@ -1710,11 +1710,11 @@ elseif (file_exists($appearance5)){
                         <img src="'.$outcrop2.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -1729,11 +1729,11 @@ elseif (file_exists($appearance5)){
                         <img src="'.$outcrop1.'" loading="lazy" class="d-block w-100" alt="...">
                     </figure>
                 </div>
-            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
+            <button class="carousel-control-next"  type="button" data-bs-target="#carouselControlsOutcrop" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
