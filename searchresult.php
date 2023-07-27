@@ -13,7 +13,7 @@ require ('config.php');
 $name = 1;
 $return = '';
 
-// This bit of PHP runs the query from the search box on index.php.
+// This bit of PHP runs the query from the search box on list.php.
 //It will run a query looking for geosamples.name, geosamples.id, geosamples.location, geoprovenance.state, geosamples.thinsection_id based on what is entered in the search box and filter accordingly.
 if(isset($_POST["query"]))
 {

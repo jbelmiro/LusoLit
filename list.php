@@ -60,7 +60,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <div class="content-wrapper">
 	<div class="container">
         <div class="row mb-3">
-            <div class="col-md-3 themed-grid-col "><img src="img/lusolit_logo%20smol.png" width="175" height="125" /></div>
+            <div class="col-md-3 themed-grid-col "><a href="https://www.lusolit.icarehb.com/"><img src="img/lusolit_logo%20smol.png" width="175" height="125" /></a></div>
             <div class="col-md-8 themed-grid-col align-self-end" style="color:#A03232"><h1>Luso Lit</h1></div>
         </div>
 		<div class="row margin-top:5px">
