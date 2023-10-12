@@ -93,35 +93,7 @@ if (!file_exists($outcrop1)) {
     />
 
 </head>
-<div class="container-fluid">
-    <div class="content-wrapper">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                <a class="btn btn-primary" style="background-color:#9e0000" href="https://www.lusolit.icarehb.com/"
-                   role="button">Go Back</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#description" style="color: black ">Description</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#petrography" style="color: black">Petrography</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#outcrop" style="color: black">Outcrop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#location" style="color: black">Location</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </nav>
-
-        </nav>
-    </div>
-</div>
+<?php include('header.php')?>
 
 
 <div class="pt-lg-5">
@@ -131,7 +103,7 @@ if (!file_exists($outcrop1)) {
         <div class="content-wrapper">
             <br>
             <div class="container ">
-                <p class="display-3" style="color:#A03232">Luso Lit
+                
                 <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description">
                     Sample <?php echo $row['name'] ?></p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px ">
@@ -1782,18 +1754,6 @@ if (!file_exists($outcrop1)) {
 <script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 
-<div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-            <span class="text-muted">© 2022 Astro Website Design </span>
+<?php include('footer.php')?>
 
-        </div>
-
-    </footer>
-</div>
 </html>
