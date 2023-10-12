@@ -3,19 +3,19 @@
         <div class="container">
             <a href="/" class="navbar-brand d-flex me-auto" style="color:#A03232"><img src="img/lusolit_logo%20smol.png" height="100">
                 <a href="/" class="navbar-brand d-flex me-auto" style="color:#A03232"><h1>Luso Lit</h1></a>
-                <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <div class="w-100" id="MainNav">
                     <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.lusolit.icarehb.com/index.php" style="color: #A03232 ">LusoLit</a>
+                            <a class="nav-link" href="/index.php" style="color: #A03232 ">LusoLit</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.lusolit.icarehb.com/list.php" style="color: #A03232">Lithotheque</a>
+                            <a class="nav-link" href="/list.php" style="color: #A03232">Lithotheque</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.lusolit.icarehb.com/map.php" style="color: #A03232">Map</a>
+                            <a class="nav-link" href="/map.php" style="color: #A03232">Map</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="https://www.lusolit.icarehb.com/acknowledgements.php" style="color: #A03232">Acknowledgments</a>
+                            <a class="nav-link " href="/acknowledgement.php" style="color: #A03232">Acknowledgments</a>
                         </li>
                     </ul>
                     </li>

@@ -103,7 +103,7 @@ if (!file_exists($outcrop1)) {
         <div class="content-wrapper">
             <br>
             <div class="container ">
-                
+
                 <p class="h3 navanchor mb-4" style="scroll-margin-top: 2em" id="description">
                     Sample <?php echo $row['name'] ?></p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px ">
