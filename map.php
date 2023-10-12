@@ -15,19 +15,15 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
-  <div class="pt-lg-5">
-    <div class="container-fluid">
-      <div class="content-wrapper">
-        <div class="container">
-        </div>
 
         <div class="px-4 pt-5 my-5 text-center">
-          <h1 class="display-4 fw-bold">Welcome to LusoLit</h1>
+            <h1>Lusolit Map</h1>
+
           <div class="col-lg-6 mx-auto">
-            </br>
+
             <p class="lead mb-4">
             </p>
-            <iframe height="400" width="100%" frameborder="no" src="https://datasciencegenie.shinyapps.io/MyShinyApp/"> </iframe>
+            <iframe height="800" width="100%" frameborder="no" src="https://jfbelmiro.shinyapps.io/lusolit_map/"> </iframe>
           </div>
 
         </div>
