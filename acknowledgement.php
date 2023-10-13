@@ -23,11 +23,13 @@
                 <h1 class="display-4 fw-bold">Acknowledgments</h1>
                 <div class="col-lg-6 mx-auto">
                     </br>
-                    <p class="lead mb-4 border-bottom border-danger pb-2">Science is rarely made by one single person; LusoLit is the result of the work of several researchers. For this, we would like to thank a few people and institutions:</br>
+                    <p class="mb-4 border-bottom border-danger pb-2 text-start">Science is rarely made by one single person; LusoLit is the result of the work of several researchers. For this, we would like to thank a few people and institutions:
+                        <br>
+                        <br>
                        Dr. Telmo Pereira and his team, who initially created the reference collection and strongly boosted the study of raw materials at the University of the Algarve. We thank them for their research and for creating a strong baseline, from which LusoLit can continue to grow. Jack Acres for his exceptional programming work which allowed the online lithotheque to come to life. Finally, ICArEHB (and the University of the Algarve) and FCT, which have been instrumental in hosting and funding the lithotheque, both directly and through the funding of research projects.
                     </p>
-                    <p class="lead mb-4">A ciência raramente é feita por uma única pessoa; a LusoLit é o resultado do trabalho de vários investigadores. Por isso, gostaríamos de agradecer a algumas pessoas e instituições:</br>
-                        Ao Dr. Telmo Pereira e à sua equipa, que inicialmente criaram a coleção de referência e impulsionaram fortemente o estudo de matérias-primas na Universidade do Algarve. Agradecemos-lhes pela sua pesquisa e por terem criado uma base sólida, a partir da qual a LusoLit pode continuar a crescer. Ao Jack Acres pelo seu trabalho de programação excepcional, que permitiu que a litoteca online ganhasse vida. Por fim, ao ICArEHB (e à Universidade do Algarve) e à FCT, que desempenharam um papel fundamental no acolhimento e financiamento da litoteca, tanto diretamente como através do financiamento de projetos de pesquisa.
+                    <p class="mb-4 text-start">A ciência raramente é feita por uma única pessoa; a LusoLit é o resultado do trabalho de vários investigadores. Por isso, gostaríamos de agradecer a algumas pessoas e instituições:</br>
+                        <br>Ao Dr. Telmo Pereira e à sua equipa, que inicialmente criaram a coleção de referência e impulsionaram fortemente o estudo de matérias-primas na Universidade do Algarve. Agradecemos-lhes pela sua pesquisa e por terem criado uma base sólida, a partir da qual a LusoLit pode continuar a crescer. Ao Jack Acres pelo seu trabalho de programação excepcional, que permitiu que a litoteca online ganhasse vida. Por fim, ao ICArEHB (e à Universidade do Algarve) e à FCT, que desempenharam um papel fundamental no acolhimento e financiamento da litoteca, tanto diretamente como através do financiamento de projetos de pesquisa.
                     </p>
                 </div>
 
