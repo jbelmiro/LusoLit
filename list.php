@@ -52,7 +52,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 	</script>
     <?php include('header.php')?>
-<body >
+<body class="pb-5">
 
 <!-- Below constructs the search box for the table-->
 <div class="pt-lg-5">

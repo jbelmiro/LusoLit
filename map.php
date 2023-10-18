@@ -28,7 +28,7 @@
             <div><p>The map currently only includes
                     samples recovered between
                     2021 and 2022. A complete
-                    version is on its way</p></div>
+                    version is on its way.</p></div>
         </div>
 
   <div>

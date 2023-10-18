@@ -2,7 +2,7 @@
  echo '<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
         <div class="container">
        
-                <a href="/" class="navbar-brand d-flex me-auto" style="color:#A03232"><h1>Luso Lit</h1></a>
+                <a href="/" class="navbar-brand d-flex me-auto" style="color:#A03232"><img src="img/lusolit_logo%20smol.png" height="100"></a>
                 <div class="w-100" id="MainNav">
                     <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
                         <li class="nav-item">

@@ -12,7 +12,7 @@
     <?php include('header.php')?>
 
 </head>
-
+<body class="">
 <div class="px-4 pt-5 my-5 text-center ">
 
     <div class="" style="max-height: 35vh;">
