@@ -17,7 +17,7 @@
 
     <div class="" style="max-height: 35vh;">
         <div class="container px-5">
-            <img src="img/front.png" class="img-fluid  mb-4" alt="Example image" width="900" height="2747" loading="lazy">
+            <img src="img/Welcome_to_LusoLit.png" class="img-fluid  mb-4" alt="Example image" width="900" height="2747" loading="lazy">
         </div>
     </div>
 </div>
