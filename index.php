@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luso Lit</title>
@@ -13,7 +13,7 @@
 
 </head>
 <body class="">
-<div class="px-4 pt-5 my-5 text-center ">
+<div class="px-4 pt-3 my-5 text-center ">
 
     <div class="" style="max-height: 35vh;">
         <div class="container px-5">
