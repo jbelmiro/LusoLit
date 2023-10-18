@@ -23,9 +23,12 @@
 
             <p class="lead mb-4">
             </p>
-            <iframe height="800" width="1200" src="https://jfbelmiro.shinyapps.io/lusolit_map/"> </iframe>
+            <iframe height="750" width="1200" src="https://jfbelmiro.shinyapps.io/lusolit_map/"> </iframe>
           </div>
-
+            <div><p>The map currently only includes
+                    samples recovered between
+                    2021 and 2022. A complete
+                    version is on its way</p></div>
         </div>
 
   <div>
