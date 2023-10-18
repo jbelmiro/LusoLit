@@ -37,14 +37,14 @@
     <div class="" style="max-height: 70vh;">
         <div class="container px-5">
             <div class="row">
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-5"></div>
                 <div class="col-7">
                     <div class=" mx-auto pb-2 mb-4 text-start">
                     <h1 class="display-4 fw-bold">Welcome to LusoLit</h1>
                 </div>
-            </div>
-            <div class="col-5"><img src="img/Welcome_to_LusoLit_v2.png" class="img-fluid  mb-4" alt="Example image" width="900" height="2747" loading="lazy"></div>
+            </div>-->
+            <div class="col-5"><img src="img/Welcome_to_LusoLit_v2_01.png" class="img-fluid  mb-4" alt="Example image" width="3699" height="2326" loading="lazy"></div>
             <div class="col-7">
 
                 <div class=" mx-auto border-bottom border-danger pb-2 mb-4 text-start">
