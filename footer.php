@@ -31,7 +31,7 @@ echo '<div class="container my-5">
 
   <footer class="text-center align-content-center" >
     <!-- Grid container -->
-    <div class="container" ">
+    <div class="container">
       <!-- Section: Images -->
       <section class="">
         <div class="row  align-items-center justify-content-center">
