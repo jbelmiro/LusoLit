@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luso Lit</title>
@@ -12,7 +12,7 @@
     <?php include('header.php')?>
 
 </head>
-<body class="">
+<body class="d-flex flex-column">
 <!--
 <div class="px-4 pt-3 my-5 text-center ">
 
@@ -33,7 +33,7 @@
 </div>
 </body>
 -->
-<div class="px-4 pt-3 my-5 text-right ">
+<div class="px-4 pt-3 my-5">
     <div class="" style="max-height: 70vh;">
         <div class="container px-5">
             <div class="row">
@@ -57,4 +57,3 @@
 </body>
 
 <?php include('footer.php')?>
-</html>

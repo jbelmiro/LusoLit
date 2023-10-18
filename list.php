@@ -54,7 +54,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	</script>
     <?php include('header.php')?>
 </head>
-<body class="">
+<body class="d-flex flex-column">
 
 <!-- Below constructs the search box for the table-->
 <div class="pt-lg-5">
