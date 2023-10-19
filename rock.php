@@ -1537,8 +1537,6 @@ if (!file_exists($outcrop1)) {
                     <p class="h6 mb-3" style=" position: relative;right:-30px ">State: <?php echo $row['state'] ?></p>
                     <p class="h6 mb-3" style=" position: relative;right:-30px">Age: <?php echo $row['age'] ?></p>
                     <p class="h6 mb-3" style=" position: relative;right:-30px">
-                        Reference: <?php echo $row['reference'] ?></p>
-                    <p class="h6 mb-3" style=" position: relative;right:-30px">
                         Description: <?php echo $row['description'] ?></p>
 
 
