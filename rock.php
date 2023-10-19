@@ -146,7 +146,7 @@ if (!file_exists($outcrop1)) {
 
 
                 <p class="h3" style="scroll-margin-top: 2em" id="appearance">Appearance</p>
-                <p class="h6 mb-3" style=" position: relative;right:-30px ">Colour: <?php echo $row['color'] ?>  </p>
+                <p class="h6 mb-3" style=" position: relative;right:-30px ">Color: <?php echo $row['color'] ?>  </p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px">Fabric: <?php echo $row['fabric'] ?></p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px">Cortex: <?php echo $row['cortex'] ?></p>
                 <p class="h6 mb-3" style=" position: relative;right:-30px">Quality: <?php echo $row['quality'] ?></p>
