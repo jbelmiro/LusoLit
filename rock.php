@@ -154,7 +154,7 @@ if (!file_exists($outcrop1)) {
 
                 <?php if (file_exists($appearance11)) {
                     echo '
-                        <div id="carouselExampleControls" class="carousel slide" data-mdb-interval="false">
+                        <div id="carouselExampleControls" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="cd-image-container">
