@@ -93,9 +93,38 @@ if (!file_exists($outcrop1)) {
     />
 
 </head>
+
 <?php include('header.php')?>
 
+<div class="container-fluid  sticky-top">
+    <div class="content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="btn btn-primary" style="background-color:#9e0000" href="https://www.lusolit.icarehb.com/"
+                   role="button">Go Back</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#description" style="color: black ">Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#petrography" style="color: black">Petrography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#outcrop" style="color: black">Outcrop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#location" style="color: black">Location</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
+        </nav>
+
+
+    </div>
+</div>
 <div class="pt-lg-5">
     <body style="padding-bottom: 75px">
 
