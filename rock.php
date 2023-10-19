@@ -843,17 +843,13 @@ if (!file_exists($outcrop1)) {
                                     <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                                 </svg>
                             </img-comparison-slider>
-                        </figure>
-                            
-                            <div class="carousel-caption d-none d-md-block">
-                        </div>
+                        </figure>       
                     </div>
                      <div class="carousel-item" ">
                     <figure class="cd-image-container">
                         <img-comparison-slider>
-                            <img slot="first" width="100%" src="' . $petroppl2 . '">
-                            <p>Test</p>
-                            <img slot="second" width="100%" src="' . $petroxpl2 . '">
+                            <img slot="first" loading="lazy" width="100%" src="' . $petroppl2 . '">
+                            <img slot="second" loading="lazy" width="100%" src="' . $petroxpl2 . '">
                             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
                                 <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
                             </svg>
