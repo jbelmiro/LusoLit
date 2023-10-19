@@ -78,11 +78,11 @@ if (!file_exists($outcrop1)) {
 <head>
     <title>Luso Lit</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  <!-- AJAX -->
-    <script src="js\bootstrap.js"></script> <!-- JS -->
-    <script src="js\modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/bootstrap.js"></script> <!-- JS -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
     <link rel="stylesheet" href="css\reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css\style.css"> <!-- Resource style -->
-    <link href="css\bootstrap.css" rel="stylesheet"> <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet"> <!-- Bootstrap -->
     <script
             defer
             src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
