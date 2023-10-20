@@ -12,7 +12,7 @@
     <?php include('header.php')?>
 
 </head>
-<body class="d-flex flex-column">
+<body class="d-flex flex-column ">
 <!--
 <div class="px-4 pt-3 my-5 text-center ">
 

@@ -13,7 +13,7 @@
 
 </head>
 
-<body class="d-flex flex-column">
+<body class="d-flex flex-column ">
 <div class="pt-lg-5">
     <div class="container-fluid">
         <div class="content-wrapper">

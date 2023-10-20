@@ -1,9 +1,9 @@
 <?php
  echo '<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-        <div class="container">
-                <a href="/" class="navbar-brand me-auto" style="color:#A03232"><img src="img/lusolit_logo%20smol.png" height="100" style="width: 100%"></a>
+        <div class="container-lg">
+                <a href="/" class="navbar-brand" style="color:#A03232"><img src="img/lusolit_logo%20smol%20edit.png" style="width: 100%; height: 100px;"></a>
                 <div class="w-100" id="MainNav">
-                    <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                    <ul class="nav navbar-nav justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link" href="/index.php" style="color: #A03232 ">LusoLit</a>
                         </li>

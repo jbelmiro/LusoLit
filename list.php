@@ -1,10 +1,9 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <?php 
 	include("config.php");
 
     ?>
-<html lang="">
+
 <!--
 MIT License
 
@@ -17,6 +16,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <head>
+
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Luso Lit</title>
     <script src="js\bootstrap.js"></script>
@@ -52,6 +52,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	});
 
 	</script>
+
     <?php include('header.php')?>
 </head>
 <body class="d-flex flex-column">
