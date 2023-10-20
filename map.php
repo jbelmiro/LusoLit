@@ -14,14 +14,14 @@
 
   <body class="d-flex flex-column">
 
-        <div class="px-4 pt-5 my-5 text-center">
+        <div class="px-4 pt-5 my-5 text-center align-content-center">
             <h1>LusoLit recovered samples</h1>
 
           <div class="col-lg-6 mx-auto b">
 
             <p class="lead mb-4">
             </p>
-            <iframe height="750" width="1200" src="https://jfbelmiro.shinyapps.io/lusolit_map/"> </iframe>
+            <iframe style="overflow:hidden;height:700px;width:100%" src="https://jfbelmiro.shinyapps.io/lusolit_map/"> </iframe>
           </div>
             <div><p>The map currently only includes
                     samples recovered between
